@@ -44,9 +44,9 @@ export const ardoises: Ardoise[] = [
                 'Objet : Au sujet de Monsieur Rimbault, Louis, abonné au journal anarchiste et pacifiste « Ce Qu’il Faut Dire ».',
                 'Je transmets ci-après les renseignements recueillis sur le compte du nommé Rimbault, Louis, né le 09 avril 1877 à Tours.',
                 'Après avoir été établi quincailler pendant 5 ans environ de 1906 à 1911 à Gargan Livry Seine et Oise, où il a exercé, durant 4 ans, les fonctions de conseiller municipal auxquelles il avait été élu sous l’étiquette radicale socialiste et qu’il a dû abandonner en raison de son intransigeance, le susnommé a quitté cette localité pour aller demeurer à Pavillon-sous-Bois de décembre 1911 au 19 janvier 1912.',
-                'A ce moment Rimbault entretenait des relations avec les anarchistes GARNIER, CAROUY, FORGET faisant partie de la bande à Bonnot. Il passait même pour fournir ceux-ci les outils perfectionnés qui leur servaient à commettre leurs cambriolages.',
+                'A ce moment Rimbault entretenait des relations avec les anarchistes Garnier, Carouy, Forget faisant partie de la bande à Bonnot. Il passait même pour fournir ceux-ci les outils perfectionnés qui leur servaient à commettre leurs cambriolages.',
                 'Impliqué dans le procès de ces anarchistes, il a été arrêté le 19 janvier 1912, sous l’inculpation de vol et de complicité et écroué à la prison de la Santé.',
-                'Aux assises, le 20 Août 1914, Rimbault a été acquitté mais il n’a pas été remis en liberté. Il a été envoyé le 26 août au 104e Régiment d’Infanterie à Argentan. Le 30 juin 1915, il a été placé en sursis d’appel et affecté, en sa qualité d’ouvrier serrurier à la maison LECOT, 93 rue Pelleport.',
+                'Aux assises, le 20 Août 1914, Rimbault a été acquitté mais il n’a pas été remis en liberté. Il a été envoyé le 26 août au 104e Régiment d’Infanterie à Argentan. Le 30 juin 1915, il a été placé en sursis d’appel et affecté, en sa qualité d’ouvrier serrurier à la maison Lecot, 93 rue Pelleport.',
                 'Rimbault demeure depuis juillet 1915, rue Pelleport au 88 ou il occupe un logement annuel de 220 frs qu’il n’a pas encore payé.',
                 '<i>Lecture du deuxième document d’archive</i> : Préfecture de police, service des renseignements généraux et des jeux. Paris, le 8 octobre 1923. Rapport du chef de service.',
                 'L’anarchiste Rimbault, Louis, Édouard, est absent de son domicile 88 rue Pelleport depuis la fin Septembre.',
@@ -54,7 +54,7 @@ export const ardoises: Ardoise[] = [
                 'Rimbault figure sur la liste des anarchistes dont le domicile est soumis à vérification bimensuelle.',
                 'Signalement : 1m68 environ, figure maigre, osseuse, aspect maladif, corpulence ordinaire, légèrement voûté, cheveux châtain roux, pommettes saillantes, teint pâle.',
                 '<i>Lecture du troisième document d’archive</i> : Préfecture de police, cabinet du préfet. Paris, le 31 décembre 1926. Secret. Le préfet de Police à Monsieur le ministre de l’intérieur (Direction de la sureté générale 2e bureau – Carnet B)',
-                'Je suis aisé que le nommé Rimbault Louis Edouard, né le 9 avril 1877 à Tours inscrit au carnet B de la Seine (3e group), s’est installé dans la colonie végétalienne de Luynes au lieu-dit « Terre Libérée » Indre et Loire.',
+                'Je suis aisé que le nommé Rimbault Louis Edouard, né le 9 avril 1877 à Tours inscrit au carnet B de la Seine (3e groupe), s’est installé dans la colonie végétalienne de Luynes au lieu-dit « Terre Libérée » Indre et Loire.',
                 'J’ai l’honneur de vous faire connaitre que le 28 décembre 1926, j’ai rayé cet individu au carnet B de la Seine et que j’ai transféré son dossier à Monsieur le Préfet d’Indre et Loire.'
             ],
         coordonnees: {lat: 47.3851155939125, lng: 0.551124215126038}
