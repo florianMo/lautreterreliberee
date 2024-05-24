@@ -6,9 +6,9 @@
     <title>Bibliographie — L'autre terre libérée</title>
 </svelte:head>
 
-<h1 class="text-center frankie">Bibliographie</h1>
-<h2 class="text-center frankie">Louis Rimbault - «Terre Libérée»</h2>
-<h2 class="text-center frankie">Les milieux libres</h2>
+<h1 class="text-center frankie text-4xl mb-4">Bibliographie</h1>
+<h2 class="text-center frankie text-2xl">Louis Rimbault - «Terre Libérée»</h2>
+<h2 class="text-center frankie text-2xl">Les milieux libres</h2>
 
 <p class="text-base lg:text-xl mt-10 italic">
     En 1923, sur les hauteurs de Luynes, au lieu-dit Le Pin, s’installe une communauté qui prône

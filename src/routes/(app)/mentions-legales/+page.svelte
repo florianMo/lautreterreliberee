@@ -9,7 +9,7 @@
 <div class="flex justify-center">
     <img src={rimbaultTransparent} alt="Portrait de Rimbault"/>
 </div>
-<h1 class="text-center frankie">Mentions légales</h1>
+<h1 class="text-center frankie text-4xl mb-6 mt-6">Mentions légales</h1>
 
 <div class="body mentions-legales">
     <div class="inner">

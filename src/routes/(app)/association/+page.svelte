@@ -55,10 +55,6 @@
     de cette initiative locale réside dans la volonté de créer du lien et vient questionner le sens de « faire communauté » aujourd’hui.
 </p>
 <p class="text-base md:text-xl mb-4">
-    <a href="https://www.lanouvellerepublique.fr/indre-et-loire/commune/luynes/a-luynes-une-experience-anarchiste-et-vegetalienne-revisitee" target="_blank">Article paru dans la Nouvelle République du
-        Centre</a>
-</p>
-<p class="text-base md:text-xl mb-4">
     Notre association a obtenu le label <a href="https://www.centre-valdeloire.fr/lactualite-de-la-region-centre-valdeloire/lancement-des-nouvelles-renaissances-2023" target="_blank">Nouvelle
     Renaissance 2023</a> de la région Centre-Val de Loire.
 </p>
@@ -70,7 +66,6 @@
 </div>
 
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Terre Libérée</h2>
-
 <p class="text-base md:text-xl mb-4">Entre 1923 et 1949 s’est déroulée à Luynes une expérience communautaire, végétalienne. Au début du 20e siècle, ils sont nombre de militants anarchistes à tenter
     l’aventure individuelle.</p>
 <p class="text-base md:text-xl mb-4">Ces hommes et ces femmes ne veulent pas attendre le grand soir d’une hypothétique révolution qui viendra peut-être un jour. Ils souhaitent que leurs vies changent
@@ -79,21 +74,30 @@
     vie.</p>
 <p class="text-base md:text-xl mb-4">Terre Libérée et Louis Rimbault sont indissociables.</p>
 
+<h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Revue de presse</h2>
+<ul>
+    <li>
+        <p class="text-base md:text-xl mb-4">
+            Emission <a href="https://www.mixcloud.com/TouraineEnLuttesOnAir/%C3%A9mission-22-mai-2024-assoc-lautre-terre-lib%C3%A9r%C3%A9e-de-luynes-autour-de-louis-raimbault-anarchiste/" target="_blank">«Touraine en lutte» du 22 mai 2024</a> sur <a href="https://www.radiobeton.com/www/" target="_blank">Radio Béton</a> (Tours)
+        </p>
+    </li>
+    <li>
+        <p class="text-base md:text-xl mb-4">
+            <a href="https://www.lanouvellerepublique.fr/indre-et-loire/commune/luynes/a-luynes-une-experience-anarchiste-et-vegetalienne-revisitee" target="_blank">Article du 10 juin 2023 paru dans la Nouvelle République du  Centre</a>
+        </p>
+    </li>
+</ul>
+
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Louis Rimbault, quelques repères</h2>
-
 <img src={mugshot} alt="Mugshot Louis Rimbault" class="w-48 float-left mr-4"/>
-
 <p class="text-base md:text-xl mb-4">Né le 9 avril 1877 à Tours, mort le 10 novembre 1949 à Luynes. Tour à tour radical socialiste, anarchiste individualiste, syndicaliste et enfin «&nbsp;naturarchiste&nbsp;».
     Il devient végétalien vers 1910.</p>
-
 <p class="text-base md:text-xl mb-4">
     Il est l’ainé d’une fratrie de 7 enfants. Dès ses quatre ans, la famille déménage de Tours à Paris. Son enfance est marquée par la pauvreté, la faim, l’alcoolisme du père qui, comme beaucoup
-    d’hommes à l’époque, «&nbsp;boit&nbsp;» son salaire dans les bistrots.
+    d’hommes à l’époque, «boit» son salaire dans les bistrots.
 </p>
-
 <p class="text-base md:text-xl mb-4">De 1904 à 1908, il est élu conseiller municipal radical de Livry, puis devient abstentionniste. C’est par son jeune frère Marceau qui fréquente alors les causeries
     des cafés de Montmartre, que Rimbault devient anarchiste individualiste.</p>
-
 <p class="text-base md:text-xl mb-4">
     En 1910-1912, il vit quelque temps à Bascon dans l’Aisne dans le «&nbsp;milieu libre&nbsp;» initié par Georges Butaud et Sophia Zaïkowska. Par la suite, il monte avec ses frères son propre «&nbsp;milieu
     libre&nbsp;» à Pavillon-sous-Bois, un atelier de serrurerie, avec lequel il pratique quelques
@@ -109,7 +113,6 @@
     métallurgie parisienne de juin 1919, il est élu secrétaire du comité de grève de l’Est parisien et apparait
     comme un leader des plus virulents.
 </p>
-
 <p class="text-base md:text-xl mb-4">
     Après 1921, il se met à promouvoir un végétalisme de plus en plus intransigeant. L’heure a sonné pour la grande œuvre de sa vie, en novembre 1923, il fonde à Luynes «&nbsp;Terre libérée&nbsp;»,
     son école de pratique végétalienne. Il publie depuis Luynes nombre d’ouvrages de propagande

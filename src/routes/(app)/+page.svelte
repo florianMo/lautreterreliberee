@@ -42,7 +42,6 @@
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
 </div>
 
-
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Samedi 15 juin 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     <a href="https://www.vegetarisme.fr/agenda/vegan-place-a-tours-37-2/" class="frankie" target="_blank">Participation à la Vegan Place 2024</a>
@@ -81,10 +80,8 @@
     questions sur l'anarchisme» chez Libertalia, et a codirigé le dictionnaire Maitron des anarchistes.
 </p>
 <p class="text-base mb-4">
-    <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution">Eléments bibliographiques et repères historiques</a>
+    <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution">Captation audio, éléments bibliographiques et repères historiques</a>
 </p>
-<!--<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a-->
-<!--        href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.</p>-->
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Champ Libre 2023<br/>À la découverte de Terre Libérée</h1>
 

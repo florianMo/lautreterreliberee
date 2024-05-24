@@ -8,9 +8,11 @@
 </svelte:head>
 
 <div class="max-w-screen-lg m-auto pl-6 pr-6">
-    <h5 class="frankie text-2xl mt-6">Ardoise {data.ardoise.numero}</h5>
-    <h1 class="frankie text-4xl mb-6">{data.ardoise.titre}</h1>
-
+    <h5 class="frankie text-2xl">Ardoise {data.ardoise.numero}</h5>
+    <h1 class="frankie text-4xl">{data.ardoise.titre}</h1>
+    <div class="mb-4">
+        <a href="/balade-sonore" class="frankie text-2xl mb-6">Carte de la balade</a>
+    </div>
     <audio controls src={audioPath} class="w-full mb-6"/>
 
     <div class="balade-nav flex justify-between frankie text-4xl mt-8 mb-8 ml-3 mr-3">
@@ -20,12 +22,6 @@
         {#if data.next}
             <a href={`/balade-sonore/${data.next.numero}`} class="next ml-auto" title="Ardoise suivante"/>
         {/if}
-    </div>
-
-    <div class="text-center mb-4">
-        <a href="/balade-sonore" class="frankie text-2xl mb-6">
-            Carte de la balade
-        </a>
     </div>
 
     <div class="text-lg lg:text-2xl mb-6">
