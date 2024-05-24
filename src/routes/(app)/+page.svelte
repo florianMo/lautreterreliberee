@@ -57,7 +57,7 @@
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Jeudi 25 avril 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://cafeshistoriques.com/programme/louis-rimbault-1919-la-greve-des-metallos-et-la-revolution" class="frankie" target="_blank">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
+    <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution" class="frankie" target="_blank">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl my-4">
