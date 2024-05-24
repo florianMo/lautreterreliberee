@@ -11,8 +11,6 @@
 
 <audio controls src={'/audio/guillaume-davranche-26-04-2024-luynes.mp3'} class="w-full mb-6"/>
 
-<h2 class="text-center frankie text-2xl py-2">Compléments bibliographiques et chronologiques à la Causerie populaire de Guillaume Davranche</h2>
-
 <h2 class="frankie text-2xl py-4 pt-6">Compléments bibliographiques</h2>
 <ul class="">
     <Entry author="Bertrand ABHERVE" title="Les origines de la grève des métallurgistes parisiens, juin 1919" edition="Le Mouvement social, n° 93 (octobre - decembre 1975), p. 75-85"/>
