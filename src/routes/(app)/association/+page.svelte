@@ -74,6 +74,10 @@
     vie.</p>
 <p class="text-base md:text-xl mb-4">Terre Libérée et Louis Rimbault sont indissociables.</p>
 
+<p class="text-base md:text-xl mb-4">
+    <a href="/dispositions-generales-terre-liberee">Dispositions générales sur le fonctionnement de Terre Libérée</a>
+</p>
+
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Revue de presse</h2>
 <ul>
     <li>

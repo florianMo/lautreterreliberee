@@ -19,8 +19,22 @@ a {
   }
 }
 
+ul, ol {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
 ul {
   list-style-type: square;
+}
+
+ol {
+  list-style: decimal;
 }
 
 .container {
@@ -123,7 +137,7 @@ img {
 }
 
 .menu {
-  box-shadow: 1px 20px 20px -15px rgba(0,0,0,1);
+  box-shadow: 1px 20px 20px -15px rgba(0, 0, 0, 1);
   z-index: 100;
 }
 
