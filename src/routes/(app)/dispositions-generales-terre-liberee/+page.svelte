@@ -1,6 +1,6 @@
 <script>
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import dispositionsGenerales from "$lib/images/dispositions-generales-terre-liberee.pdf";
+    import source from "$lib/images/Le_Neo-naturien__CAHIER_N15.pdf";
 </script>
 
 <svelte:head>
@@ -37,7 +37,7 @@
 
 <h1 class="frankie text-center text-2xl md:text-4xl mb-4">Extrait des dispositions générales sur le fonctionnement<br/>de la cité végétalienne «Terre Libérée»</h1>
 
-<a class="block text-center text-xl font-bold" href="{dispositionsGenerales}">Version PDF</a>
+<a class="block text-center text-xl font-bold" href="{source}" target="_blank">Source, in «Le Néo-Naturien» n°15, décembre 1923</a>
 
 <p class="text-lg my-2">Les Végétaliens ne veulent pas être orgueilleux ou assez vains pour croire imposer, à une cité d'hommes libres, les règles d'une éthique.</p>
 
