@@ -11,7 +11,7 @@
 <div class="menu flex flex-wrap fixed top-0 bg-atl-red w-full justify-center">
     <a href="/" class={linkClasses}>Événements</a>
     <a href="/association" class={linkClasses}>L'association</a>
-    <a href="/balade-sonore/1" class={linkClasses}>Balade sonore</a>
+    <a href="/balade-sonore" class={linkClasses}>Balade sonore</a>
     <a href="/bibliographie" class={linkClasses}>Bibliographie</a>
     <a href="https://www.facebook.com/lautreterreliberee/" target="_blank" class={linkClasses}>Facebook</a>
     <a href="/mentions-legales" class={linkClasses}>Mentions légales</a>
