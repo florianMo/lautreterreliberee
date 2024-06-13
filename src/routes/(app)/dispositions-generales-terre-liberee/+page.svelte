@@ -36,23 +36,15 @@
 </svelte:head>
 
 <h1 class="frankie text-center text-2xl md:text-4xl mb-4">Extrait des dispositions générales sur le fonctionnement<br/>de la cité végétalienne «Terre Libérée»</h1>
-
 <a class="block text-center text-xl font-bold" href="{source}" target="_blank">Source, in «Le Néo-Naturien» n°15, décembre 1923</a>
 
 <p class="text-lg my-2">Les Végétaliens ne veulent pas être orgueilleux ou assez vains pour croire imposer, à une cité d'hommes libres, les règles d'une éthique.</p>
-
 <p class="text-lg my-2">Ce qui suit est plutôt dédié à l'esprit malveillant des mauvais bergers aux mains blanches qui brocantent leur idéal à tant la ligne, en attendant qu'ils se casent ou se "reposent" et qui dénient à tout mouton le pouvoir de s'évader, pour mieux vivre de sa laine.</p>
-
 <p class="text-lg my-2">C'est aussi une indication donnant à celui qui n'est pas Végétalien ou au Végétarien qui n'y a pas pensé l'idée de ce que peut être l'existence entre Végétaliens qui suppriment de leur vie tout ce qui, non seulement pollue la source et corrompt l'atmosphère, mais supprime l'exploitation entre les hommes et le sacrifice des êtres sensibles.</p>
-
 <p class="text-lg my-2">Les Végétaliens savent bien qu'en écartant de leur vie tout ce qui illusionne, abrutit, pervertit, dégénère et tue, ils coupent les vivres aux spéculateurs du Verbe, et qu'ils auront difficilement bonne presse.</p>
-
 <p class="text-lg my-2">Aussi ne s'étonneront-ils pas d'avoir pour ennemis jurés tous les dilettantes de la Révolution, les littérateurs du Mal, les poètes et les bardes de la Misère, les marchands du Temple Individualiste, les toxicomanes rédempteurs de l’Humanité, et les spéculateurs du péché, et en un mot, tous les « amants de la Société » qui, juchés sur les fumiers sociaux s’ingénient à maintenir leur clientèle, de plus en plus exploitée, de plus en plus dégénérée, en la payant de... mots.</p>
-
 <p class="text-lg my-2">Quant à ceux qui sont sincères ! Nous leur demandons ce qu'ils perdraient à être Végétaliens.</p>
-
 <p class="text-lg my-2">SUR LES PROPOSITIONS QUI SUIVENT, il sera accepté toutes indications pouvant aider au développement d'une bonne harmonie entre des hommes résolus de donner à leurs semblables, le meilleur enseignement pratique d'une vie nouvelle, s'inspirant à la fois de la Nature et de l'acquis des exactes connaissances humaines :</p>
-
 <p class="text-lg my-2">10 hectares de bonne terre, un site charmant dans une contrée humaine dénommée « Jardin de la France » ; ces 10 hectares ainsi distribués :</p>
 
 <ul>

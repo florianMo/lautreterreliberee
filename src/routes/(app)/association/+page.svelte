@@ -52,7 +52,7 @@
 <p class="text-base md:text-xl mb-4">
     Notre association a pour objet d’exhumer l’histoire de Terre Libérée disparue de la mémoire collective. Elle a aussi pour vocation d’organiser des moments de convivialité et de promouvoir le vivre
     ensemble, le tout dans une démarche coopérative et respectueuse de l’environnement. L’essence même
-    de cette initiative locale réside dans la volonté de créer du lien et vient questionner le sens de « faire communauté » aujourd’hui.
+    de cette initiative locale réside dans la volonté de créer du lien et vient questionner le sens de «faire communauté» aujourd’hui.
 </p>
 <p class="text-base md:text-xl mb-4">
     Notre association a obtenu le label <a href="https://www.centre-valdeloire.fr/lactualite-de-la-region-centre-valdeloire/lancement-des-nouvelles-renaissances-2023" target="_blank">Nouvelle
@@ -76,6 +76,10 @@
 
 <p class="text-base md:text-xl mb-4">
     <a href="/dispositions-generales-terre-liberee">Dispositions générales sur le fonctionnement de Terre Libérée</a>
+</p>
+
+<p class="text-base md:text-xl mb-4">
+    <a href="/recettes-vegetaliennes">«Recettes végétaliennes pour vivre 100 ans» de «Terre Libérée», in «Le Néo-Naturien» n°22</a>
 </p>
 
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Revue de presse</h2>
