@@ -7,7 +7,7 @@
     import { page } from '$app/stores';
 
     const linkClasses = 'text-sm xl:text-lg';
-    $: menuBgColor = $page.url.pathname === '/balade-sonore' ? 'bg-atl-brown' : 'bg-atl-red';
+    $: menuBgColor = $page.url.pathname.includes('/balade-sonore') ? 'bg-atl-brown' : 'bg-atl-red';
 </script>
 
 <div class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}">
