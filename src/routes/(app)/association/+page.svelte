@@ -42,7 +42,7 @@
 <h1 class="frankie text-center text-4xl md:text-6xl">L'autre Terre Libérée</h1>
 
 <div class="text-center flex justify-center mb-8">
-    <img src={cartePostale} alt="Carte postale Terre Libérée" style="width: 900px"/>
+    <img src={cartePostale} alt="Carte postale Terre Libérée"/>
 </div>
 
 <div class="text-center my-6">

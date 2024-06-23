@@ -4,11 +4,13 @@
     import "../../lib/css/style.scss";
     import logoSmall from "$lib/images/logo-small.jpg";
     import labelRenaissance from "$lib/images/label-renaissance-2023.jpg";
+    import { page } from '$app/stores';
 
     const linkClasses = 'text-sm xl:text-lg';
+    $: menuBgColor = $page.url.pathname === '/balade-sonore' ? 'bg-atl-brown' : 'bg-atl-red';
 </script>
 
-<div class="menu flex flex-wrap fixed top-0 bg-atl-red w-full justify-center">
+<div class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}">
     <a href="/" class={linkClasses}>Événements</a>
     <a href="/association" class={linkClasses}>L'association</a>
     <a href="/balade-sonore" class={linkClasses}>Balade sonore</a>
