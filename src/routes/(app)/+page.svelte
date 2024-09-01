@@ -42,6 +42,46 @@
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
 </div>
 
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Champ Libre 2024</h1>
+
+<span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Dimanche 22 septembre 2024</span>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    Balade sonore
+    <a href="/balade-sonore" target="blank"><Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/></a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">10h > 12h - Départ de la halle de Luynes - <a href="/balade-sonore/1">Podcasts</a></h2>
+<p class="text-base lg:text-2xl mb-4">
+    <a href="/balade-sonore" target="_blank">Promenade d’environ 2h</a>, parsemée de <a href="/balade-sonore/1">podcasts</a> pour découvrir l’histoire
+    de Louis Rimbault et de son école de pratique
+    végétalienne Terre Libérée. Cette balade sonore proposée par l’association L’autre Terre Libérée vous raconte cette expérience qui a eu lieu à Luynes
+    entre 1923 et 1949, et qui a disparu des mémoires collectives. Tout au long du parcours, des ardoises informatives vous invitent à scanner des QR
+    Codes pour écouter des petites pastilles audio tout en cheminant jusqu’au terrain de l’association.
+</p>
+<p class="font-bold italic text-base lg:text-2xl">Informations pratiques :</p>
+<p class="italic text-base lg:text-2xl mb-4">
+    Nous vous invitons à vous garer dans les parkings du centre du village puis de vous rendre sous la halle pour le départ de la balade. Prévoir 2
+    heures pour l’aller, un temps sur place, puis environ 40 minutes de marche pour le retour. Pour ceux qui voudraient éviter la marche,
+    il est possible de se garer sur le parking du supermarché, puis de descendre jusqu’au terrain (environ 10 minutes de marche).
+</p>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    Pique-nique partagé & Causeries
+    <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank">
+        <Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/>
+    </a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">12h30 - Terrain de l'association</h2>
+<p class="text-base lg:text-2xl mb-4">
+    Chaque participant est invité à préparer une spécialité culinaire, à la déposer sur la table pour partager le moment convivial du repas. Une
+    buvette sera également disponible pour se désaltérer,
+    proposant des boissons bio avec et sans alcool, sélectionnées auprès de producteurs locaux.
+</p>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    Ateliers ludiques
+    <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank"><Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/></a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">À partir de 14h - Terrain de l'association</h2>
+<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes, grand jeu de construction collective.</p>
+
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Samedi 15 juin 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     <a href="https://www.vegetarisme.fr/agenda/vegan-place-a-tours-37-2/" class="frankie" target="_blank">Participation à la Vegan Place 2024</a>
@@ -167,14 +207,10 @@
 
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     Ateliers ludiques
-    <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank">
-        <Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/>
-    </a>
+    <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank"><Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/></a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">À partir de 14h - Terrain de l'association</h2>
-<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu
-    des empreintes, grand jeu de construction
-    collective.</p>
+<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes, grand jeu de construction collective.</p>
 
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     Concert
