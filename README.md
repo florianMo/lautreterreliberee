@@ -21,6 +21,19 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
+```shell
+sudo su lautreterreliberee
+cd /var/www/lautreterreliberee
+git pull
+npm run build
+pm2 restart lautreterreliberee
+```
+
+Reset PM2
+
+```shell
+pm2 start --name lautreterreliberee ./build/index.js 
+
 ## Restart server
 
  ```shell
