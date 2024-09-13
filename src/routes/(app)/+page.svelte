@@ -3,6 +3,7 @@
     import Icon from "svelte-awesome";
     import map from "svelte-awesome/icons/map";
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
+    import miel from "$lib/images/miel.jpeg";
 </script>
 
 <svelte:head>
@@ -64,23 +65,24 @@
     il est possible de se garer sur le parking du supermarché, puis de descendre jusqu’au terrain (environ 10 minutes de marche).
 </p>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    Pique-nique partagé & Causeries
+    Pique-nique partagé & lectures
     <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank">
         <Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/>
     </a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">12h30 - Terrain de l'association</h2>
 <p class="text-base lg:text-2xl mb-4">
+    <img src={miel} alt="Miel Laurent Guibert" class="w-60 max-w-full max-h-96 border-4 border-atl-black float-right"/>
     Chaque participant est invité à préparer une spécialité culinaire, à la déposer sur la table pour partager le moment convivial du repas. Une
-    buvette sera également disponible pour se désaltérer,
-    proposant des boissons bio avec et sans alcool, sélectionnées auprès de producteurs locaux.
+    buvette sera également disponible pour se désaltérer, proposant des boissons bio avec et sans alcool, sélectionnées auprès de producteurs locaux (chèque et espèces uniquement).<br/>
+    Vente de miel local (Laurent Guibert, Monnaie) par le producteur.
 </p>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    Ateliers ludiques
+    Atelier nature
     <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank"><Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/></a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">À partir de 14h - Terrain de l'association</h2>
-<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes, grand jeu de construction collective.</p>
+<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes.</p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Samedi 15 juin 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
