@@ -43,8 +43,13 @@
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
 </div>
 
-<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Champ Libre 2024</h1>
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Atelier contre-cartographie</h1>
+<span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Vendredi 8 novembre 2024</span>
+<p class="text-base lg:text-2xl mb-4">
+    Initiation à la contre-cartographie par Nicolas Gimenez. Définition de plusieurs groupes de travail, sur plusieurs sujets de contre-cartographie autour du territoire de Luynes. Ouvert à tous, n'hésitez pas à nous contacter pour vous greffer à l'aventure :).
+</p>
 
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Champ Libre 2024</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Dimanche 22 septembre 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     Balade sonore

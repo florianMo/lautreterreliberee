@@ -14,9 +14,7 @@
     <a href="/" class={linkClasses}>Événements</a>
     <a href="/association" class={linkClasses}>L'association</a>
     <a href="/balade-sonore" class={linkClasses}>Balade sonore</a>
-    <a href="/bibliographie" class={linkClasses}>Bibliographie</a>
-    <a href="https://www.facebook.com/lautreterreliberee/" target="_blank" class={linkClasses}>Facebook</a>
-    <a href="/mentions-legales" class={linkClasses}>Mentions légales</a>
+    <a href="/rucher-ecole-de-luynes" class={linkClasses}>Rucher école de Luynes</a>
 </div>
 
 <div class="container p-4 pt-16">
@@ -30,5 +28,11 @@
         <a href="https://www.centre-valdeloire.fr/lactualite-de-la-region-centre-valdeloire/lancement-des-nouvelles-renaissances-2023" target="_blank">
             <img src={labelRenaissance} alt="Label Renaissance(s) 2023"/>
         </a>
+    </div>
+    <div class="flex justify-center text-sm">
+        <a href="/" class="m-2">Accueil</a>
+        <a href="/bibliographie" class="m-2">Bibliographie</a>
+        <a href="/mentions-legales" class="m-2">Mentions légales</a>
+        <a href="https://www.facebook.com/lautreterreliberee/" class="m-2" target="_blank">Facebook</a>
     </div>
 </footer>

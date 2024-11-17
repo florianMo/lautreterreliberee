@@ -82,6 +82,11 @@
     <a href="/recettes-vegetaliennes">«Recettes végétaliennes pour vivre 100 ans» de «Terre Libérée», in «Le Néo-Naturien» n°22</a>
 </p>
 
+<h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Conférences</h2>
+<p class="text-base md:text-xl mb-4">
+    <a href="/conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution">«Louis Rimbault 1919 : la grève des métallos et la révolution» (G.Davranche, 2024)</a>
+</p>
+
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Revue de presse</h2>
 <ul>
     <li>
