@@ -96,6 +96,13 @@
     </li>
     <li>
         <p class="text-base md:text-xl mb-4">
+            <a href="https://www.radiocampustours.com/emissions/abcdveg-emission-du-22-juillet-2024-plateau-radio-vegan-place-tours-anarchisme-et-vegetalisme-avec-anne-steiner-et-thierry-flammant/" target="_blank">
+                Table ronde à la Vegan Place 2023 avec anne Steiner et Thierry Flammant
+            </a>
+        </p>
+    </li>
+    <li>
+        <p class="text-base md:text-xl mb-4">
             <a href="https://www.lanouvellerepublique.fr/indre-et-loire/commune/luynes/a-luynes-une-experience-anarchiste-et-vegetalienne-revisitee" target="_blank">Article du 10 juin 2023 paru dans la Nouvelle République du  Centre</a>
         </p>
     </li>
