@@ -91,19 +91,30 @@
 <ul>
     <li>
         <p class="text-base md:text-xl mb-4">
-            Emission <a href="https://www.mixcloud.com/TouraineEnLuttesOnAir/%C3%A9mission-22-mai-2024-assoc-lautre-terre-lib%C3%A9r%C3%A9e-de-luynes-autour-de-louis-raimbault-anarchiste/" target="_blank">«Touraine en lutte» du 22 mai 2024</a> sur <a href="https://www.radiobeton.com/www/" target="_blank">Radio Béton</a> (Tours)
-        </p>
-    </li>
-    <li>
-        <p class="text-base md:text-xl mb-4">
+            22 juillet 2024,
             <a href="https://www.radiocampustours.com/emissions/abcdveg-emission-du-22-juillet-2024-plateau-radio-vegan-place-tours-anarchisme-et-vegetalisme-avec-anne-steiner-et-thierry-flammant/" target="_blank">
-                Table ronde à la Vegan Place 2023 avec Anne Steiner et Thierry Flammant
+                Table ronde à la Vegan Place avec Anne Steiner et Thierry Flammant
             </a>
         </p>
     </li>
     <li>
         <p class="text-base md:text-xl mb-4">
-            <a href="https://www.lanouvellerepublique.fr/indre-et-loire/commune/luynes/a-luynes-une-experience-anarchiste-et-vegetalienne-revisitee" target="_blank">Article du 10 juin 2023 paru dans la Nouvelle République du  Centre</a>
+            22 mai 2024,
+            Emission <a href="https://www.mixcloud.com/TouraineEnLuttesOnAir/%C3%A9mission-22-mai-2024-assoc-lautre-terre-lib%C3%A9r%C3%A9e-de-luynes-autour-de-louis-raimbault-anarchiste/" target="_blank">«Touraine en lutte» du 22 mai 2024</a> sur <a href="https://www.radiobeton.com/www/" target="_blank">Radio Béton</a> (Tours)
+        </p>
+    </li>
+    <li>
+        <p class="text-base md:text-xl mb-4">
+            2 juillet 2023,
+            <a href="https://soundcloud.com/rfl-en-touraine/rfl101-rflactu-lautreterre-liberee-de-louis-rimbault-et-ses-mysteres-qui-demeurent?ref=clipboard&p=a&c=0&si=c960b60a9b8e4bd990eb6674bbebdf06" target="_blank">
+                Emission consacrée à l'association sur <a href="https://www.rfl101.fr/" target="_blank">RFL101</a> avec Thierry Flammant
+            </a>
+        </p>
+    </li>
+    <li>
+        <p class="text-base md:text-xl mb-4">
+            10 juin 2023,
+            <a href="https://www.lanouvellerepublique.fr/indre-et-loire/commune/luynes/a-luynes-une-experience-anarchiste-et-vegetalienne-revisitee" target="_blank">Article paru dans la Nouvelle République du  Centre</a>
         </p>
     </li>
 </ul>
