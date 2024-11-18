@@ -47,7 +47,7 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Exposition à la librairie Utopia</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">du 11/12/2024 au 22/03/2025</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">«Louis Rimbault et la cité idéale "Terre Libérée"»</span>
-<p class="text-base lg:text-2xl mb-4 italic">Entrée libre du mercredi au samedi de 13h30 à 19h30. Vernissage le mercredi 11 décembre à 19h.Cette exposition retrace les éléments clés de la vie de Louis Rimbault qui le mène à créer à Luynes entre 1923 et 1949 une école de pratique végétalienne.</p>
+<p class="text-base lg:text-2xl mb-4 italic">Entrée libre du mercredi au samedi de 13h30 à 19h30. Vernissage le mercredi 11 décembre à 19h. Cette exposition retrace les éléments clés de la vie de Louis Rimbault qui le mène à créer à Luynes entre 1923 et 1949 une école de pratique végétalienne.</p>
 <p class="text-base lg:text-2xl mb-4">
     <a href="https://librairie-utopia.org/" target="_blank">Librairie Utopia</a>, 1 Rue Frédéric Sauton, 75005 Paris, <a href="tel:0985157191">09 85 15 71 91</a>
 </p>
