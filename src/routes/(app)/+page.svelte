@@ -47,7 +47,7 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence : «L'aller vers»</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 18 janvier 2025</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">«L'aller vers» : une pratique du lien pour la transformation sociale</span>
-<h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - Luynes</h2>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - 2, rue Paul-Louis Courier (sous-sol de l'ancienne bibliothèque, porte arrière) - Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace public</a>.</p>
 <p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
 
