@@ -5,6 +5,9 @@
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
     import miel from "$lib/images/miel.jpeg";
     import librairieUtopia from "$lib/images/librairie-utopia.png";
+    import allerVers1 from "$lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
+    import allerVers2 from "$lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
+    import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
 </script>
 
 <svelte:head>
@@ -50,6 +53,11 @@
 <h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - 2, rue Paul-Louis Courier (sous-sol de l'ancienne bibliothèque, porte arrière) - Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace public</a>.</p>
 <p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
+<ul>
+    <li><a href="{allerVers1}" target="_blank">Comment interagir avec les habitants ?</a></li>
+    <li><a href="{allerVers2}" target="_blank">Enquêtes exploratoires et campagnes relationnelles</a></li>
+    <li><a href="{allerVers3}" target="_blank">Ce qui nous sépare de l'«aller vers»</a></li>
+</ul>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Exposition à la librairie Utopia</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">du 11/12/2024 au 22/03/2025</span>
