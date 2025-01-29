@@ -53,6 +53,7 @@
 <h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - 2, rue Paul-Louis Courier (sous-sol de l'ancienne bibliothèque, porte arrière) - Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace public</a>.</p>
 <p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
+<p class="text-base my-2">Textes de Jérôme Guillet :</p>
 <ul>
     <li><a href="{allerVers1}" target="_blank">Comment interagir avec les habitants ?</a></li>
     <li><a href="{allerVers2}" target="_blank">Enquêtes exploratoires et campagnes relationnelles</a></li>
