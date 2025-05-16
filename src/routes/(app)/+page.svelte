@@ -47,19 +47,37 @@
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
 </div>
 
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Rémi Luglia</h1>
+<span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Mercredi 11 juin 2025, Luynes</span>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" class="frankie">
+        Les enjeux actuels et à venir de la protection de la biodiversité
+    </a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
+<p class="text-base lg:text-2xl mb-4 italic">En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le cadre des
+    <a href="https://cafeshistoriques.com/" target="_blank">cafés historiques en région Centre Val-de-Loire</a>.</p>
+
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Balade sonore et chantée avec PTYX</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 3 mai 2025, Luynes</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">Balade sonore dans le cadre du festival Easy Listening</span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">14h30 - Départ de la halle de Luynes - Podcasts, chants</h2>
-<p class="text-base lg:text-2xl mb-4 italic">Dans le cadre du festival <a target="_blank" href="https://www.ensembleptyx.com/easy-listening-2025/">Easy Listening</a> organisé par l'<a href target="_blank">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>, animée de chants.</p>
-<p class="text-base lg:text-2xl mb-4 italic">A partir de 19h, improvisations verbales et musicales autour de dégustations de bières, vins bio ou naturels, locaux, «Des sons sous la Terre», 35 vallée de Vaugareau.</p>
+<p class="text-base lg:text-2xl mb-4 italic">Dans le cadre du festival <a target="_blank" href="https://www.ensembleptyx.com/easy-listening-2025/">Easy Listening</a> organisé par
+    l'<a href target="_blank">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>,
+    animée de chants.</p>
+<p class="text-base lg:text-2xl mb-4 italic">A partir de 19h, improvisations verbales et musicales autour de dégustations de bières, vins bio ou naturels, locaux, «Des sons sous la
+    Terre», 35 vallée de Vaugareau.</p>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence : «L'aller vers»</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 18 janvier 2025</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">«L'aller vers» : une pratique du lien pour la transformation sociale</span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - 2, rue Paul-Louis Courier (sous-sol de l'ancienne bibliothèque, porte arrière) - Luynes</h2>
-<p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace public</a>.</p>
-<p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
+<p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un
+    acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a
+            href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace
+        public</a>.</p>
+<p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans
+    l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
 <p class="text-base my-2">Textes de Jérôme Guillet :</p>
 <ul>
     <li><a href="{allerVers1}" target="_blank">Comment interagir avec les habitants ?</a></li>
@@ -70,7 +88,8 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Exposition à la librairie Utopia</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">du 11/12/2024 au 22/03/2025</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">«Louis Rimbault et la cité idéale "Terre Libérée"»</span>
-<p class="text-base lg:text-2xl mb-4 italic">Entrée libre du mercredi au samedi de 13h30 à 19h30. Vernissage le mercredi 11 décembre à 19h. Cette exposition retrace les éléments clés de la vie de Louis Rimbault qui le mène à créer à Luynes entre 1923 et 1949 une école de pratique végétalienne.</p>
+<p class="text-base lg:text-2xl mb-4 italic">Entrée libre du mercredi au samedi de 13h30 à 19h30. Vernissage le mercredi 11 décembre à 19h. Cette exposition retrace les éléments
+    clés de la vie de Louis Rimbault qui le mène à créer à Luynes entre 1923 et 1949 une école de pratique végétalienne.</p>
 <p class="text-base lg:text-2xl mb-4">
     <a href="https://librairie-utopia.org/" target="_blank">Librairie Utopia</a>, 1 Rue Frédéric Sauton, 75005 Paris, <a href="tel:0985157191">09 85 15 71 91</a>
 </p>
@@ -81,7 +100,8 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Atelier contre-cartographie</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Vendredi 8 novembre 2024</span>
 <p class="text-base lg:text-2xl mb-4">
-    Initiation à la contre-cartographie par Nicolas Gimenez. Définition de plusieurs groupes de travail, sur plusieurs sujets de contre-cartographie autour du territoire de Luynes. Ouvert à tous, n'hésitez pas à nous contacter pour vous greffer à l'aventure :).
+    Initiation à la contre-cartographie par Nicolas Gimenez. Définition de plusieurs groupes de travail, sur plusieurs sujets de contre-cartographie autour du territoire de Luynes.
+    Ouvert à tous, n'hésitez pas à nous contacter pour vous greffer à l'aventure :).
 </p>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Champ Libre 2024</h1>
@@ -131,34 +151,43 @@
 <h2 class="text-base md:text-2xl text-atl-red font-bold">10h ➜ 18h - Boulevard Heurteloup - Tours</h2>
 <p class="text-base lg:text-2xl my-4">
     La Vegan Place est un événement co-organisé par le <a href="https://www.vegetarisme.fr/groupelocal/indre-et-loire/" target="_blank">groupe local tourangeau</a> de l'<a
-        href="https://www.vegetarisme.fr/" target="_blank">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/" target="_blank">mouvement
-    Utopia</a>, <a href="https://www.l214.com/" target="_blank">L214</a> et <a href="https://www.code-animal.com/" target="_blank">Code Animal</a>. Elle accueillera un ensemble de posters
+        href="https://www.vegetarisme.fr/" target="_blank">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/"
+                                                                                                                                     target="_blank">mouvement
+    Utopia</a>, <a href="https://www.l214.com/" target="_blank">L214</a> et <a href="https://www.code-animal.com/" target="_blank">Code Animal</a>. Elle accueillera un ensemble de
+    posters
     documentaires créés par notre association autour de «Terre libérée» et du végétalisme dans les mouvements anarchistes.
 </p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Jeudi 25 avril 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution" class="frankie" target="_blank">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
+    <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution" class="frankie"
+       target="_blank">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl my-4">
-    Conférence de <a href="https://www.babelio.com/auteur/Guillaume-Davranche/337582" target="_blank">Guillaume Davranche</a>, journaliste et chercheur indépendant en histoire sociale. Auteur de <a
+    Conférence de <a href="https://www.babelio.com/auteur/Guillaume-Davranche/337582" target="_blank">Guillaume Davranche</a>, journaliste et chercheur indépendant en histoire
+    sociale. Auteur de <a
         href="https://editionslibertalia.com/catalogue/coeditions/trop-jeunes-pour-mourir" target="_blank">Trop jeune pour mourir</a>, <a
         href="https://editionslibertalia.com/catalogue/dix-questions/dix-questions-sur-l-anarchisme" target="_blank">Dix questions sur l'anarchisme</a>, <a
         href="https://editionsatelier.com/boutique/maitron-/235-les-anarchistes-dictionnaire-biographique-du-mouvement-libertaire-francophone-9782708243163.html"
         target="_blank">Les anarchistes -
-    Dictionnaire bibliographique du mouvement libertaire francophone</a>. En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le
+    Dictionnaire bibliographique du mouvement libertaire francophone</a>. En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de
+    Blois</a>, dans le
     cadre des <a href="https://cafeshistoriques.com/" target="_blank">cafés historiques en région
     Centre Val-de-Loire</a>.
 </p>
-<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.</p>
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.
+</p>
 <p class="text-base my-2">
-    Au sortir de la Grande Guerre, le syndicalisme révolutionnaire remonte en flèche, le pays est en ébullition, et cela se traduit notamment par la grande grève de la métallurgie parisienne, au
-    printemps 1919. Alors que la direction réformiste de la CGT freine et tergiverse, la base est plus impatiente que jamais. Et parmi les meneurs se trouve un rescapé de l'affaire de la bande à
+    Au sortir de la Grande Guerre, le syndicalisme révolutionnaire remonte en flèche, le pays est en ébullition, et cela se traduit notamment par la grande grève de la métallurgie
+    parisienne, au
+    printemps 1919. Alors que la direction réformiste de la CGT freine et tergiverse, la base est plus impatiente que jamais. Et parmi les meneurs se trouve un rescapé de l'affaire
+    de la bande à
     Bonnot : Louis Rimbault ! Mais que s'est-il passé exactement, durant ce mouvement des métallos, prélude à la scission de la CGT entre réformistes et révolutionnaires ?
 </p>
 <p class="text-base my-2">
-    Guillaume Davranche est journaliste et chercheur indépendant en histoire sociale. Il est l'auteur de «Trop jeunes pour mourir. Ouvriers et révolutionnaires face à la guerre (1909-1914)» et de «Dix
+    Guillaume Davranche est journaliste et chercheur indépendant en histoire sociale. Il est l'auteur de «Trop jeunes pour mourir. Ouvriers et révolutionnaires face à la guerre
+    (1909-1914)» et de «Dix
     questions sur l'anarchisme» chez Libertalia, et a codirigé le dictionnaire Maitron des anarchistes.
 </p>
 <p class="text-base mb-4">
@@ -179,7 +208,8 @@
     Conférence d'<a href="https://fr.wikipedia.org/wiki/Anne_Steiner" target="_blank">Anne Steiner</a>, sociologue, spécialiste du <a
         href="https://fr.wikipedia.org/wiki/Anarchisme_individualiste"
         target="_blank">mouvement individualiste anarchiste</a>, en partenariat avec les
-    <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le cadre des <a href="https://cafeshistoriques.com/" target="_blank">cafés historiques en région
+    <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le cadre des <a href="https://cafeshistoriques.com/" target="_blank">cafés
+    historiques en région
     Centre Val-de-Loire</a>.
 </p>
 <p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a
@@ -252,7 +282,8 @@
     <a href="https://osm.org/go/0AU8Qn3Nl-?m=" target="blank"><Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/></a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">À partir de 14h - Terrain de l'association</h2>
-<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes, grand jeu de construction collective.</p>
+<p class="text-base lg:text-2xl mb-4">Divers ateliers sont proposés tout au long de l’après midi, pour les petits et les grands. Land art, dessin, jeu des empreintes, grand jeu de
+    construction collective.</p>
 
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     Concert
