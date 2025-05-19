@@ -91,7 +91,7 @@
 <Paragraph>
     Le chapitre consacré à « Terre Libérée » porte ainsi le titre parfaitement subjectif
     de « la vaine Cité végétalienne de Louis Rimbault ». Mis à part le fait qu’aucune utopie
-    n’a vecu dans la longue durée, le lecteur désireux de s’informer objectivement sur
+    n’a vécu dans la longue durée, le lecteur désireux de s’informer objectivement sur
     cette colonie libertaire en a déjà pour ses frais : elle fut dérisoire et inefficace. Oraison
     funèbre donc qui ne saurait remplacer l’étude historique et la démonstration de cette
     entrée en matière pour le moins expéditive.
