@@ -45,9 +45,9 @@
 </Paragraph>
 <Paragraph>
     Rappelons tout d’abord quelques éléments contextuels. Une « utopie » ne
-    saurait définir tout projet sociétal imaginaire, reve, voire irréaliste surtout s’il est
-    fonde sur des principes conservateurs et inégalitaires. L’historien Michel Winock l’a
-    precisé : « L’utopie est d’abord une manière détournée de critique sociale. (...) Si le
+    saurait définir tout projet sociétal imaginaire, rêvé, voire irréaliste surtout s’il est
+    fondé sur des principes conservateurs et inégalitaires. L’historien Michel Winock l’a
+    précisé : « L’utopie est d’abord une manière détournée de critique sociale. (...) Si le
     contenu des utopies peut varier, toutes se caractérisent d’abord par l’harmonie,
     l’équilibre, les mécanismes de régulation. Et pour presque toutes, la tendance dominante
     est l’égalité sociale enfin accomplie, grâce à la disparition de la propriété privée, tenue
@@ -69,7 +69,7 @@
     amalgames relèvent d’une méconnaissance historique des éléments fondateurs de
     l’utopisme comme socialisme rêvé et portent clairement préjudice à la
     compréhension d’un mouvement qui, à partir de la Révolution Française et de
-    Gracchus Babeuf, a donné naissance à de nombreuses experiences empiriquement
+    Gracchus Babeuf, a donné naissance à de nombreuses expériences empiriquement
     constitutives du plus grand mouvement politique de la fin du XIXe et du XXe siecle<RefLink number={8}/> :
     le socialisme. Ce n’est pas parce que la droite conservatrice etatsunienne – relayée par
     quelques intellectuels français, pour la plupart ex-staliniens purs et durs - a poursuivi
