@@ -34,6 +34,10 @@
     biographique du mouvement ouvrier.
 </p>
 
+<div class="text-center">
+    <a href="/bibliographie/voyages-en-utopies-lecture-critique" class="text-2xl block my-10">Une lecture critique de l'ouvrage «Voyages en utopies» de Benoist Simmat et Daniel Casanave</a>
+</div>
+
 <div class="menu-bibliographie">
     <a href="#essentiel">Pour aller à l'essentiel</a>
     <a href="#le-mouvement-anarchiste">Le mouvement anarchiste</a>
