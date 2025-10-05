@@ -84,7 +84,7 @@
 <span class="frankie text-atl-red text-2xl md:text-4xl">Balade sonore dans le cadre du festival Easy Listening</span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">14h30 - Départ de la halle de Luynes - Podcasts, chants</h2>
 <p class="text-base lg:text-2xl mb-4 italic">Dans le cadre du festival <a target="_blank" href="https://www.ensembleptyx.com/easy-listening-2025/">Easy Listening</a> organisé par
-    l'<a href target="_blank">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>,
+    l'<a href="https://www.ensembleptyx.com" target="_blank">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>,
     animée de chants.</p>
 <p class="text-base lg:text-2xl mb-4 italic">A partir de 19h, improvisations verbales et musicales autour de dégustations de bières, vins bio ou naturels, locaux, «Des sons sous la
     Terre», 35 vallée de Vaugareau.</p>
