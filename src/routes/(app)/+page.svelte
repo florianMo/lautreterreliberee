@@ -8,6 +8,7 @@
     import allerVers1 from "$lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
     import allerVers2 from "$lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
     import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
+    import habiterLaTerre from "$lib/images/habiterLaTerre.png";
 </script>
 
 <svelte:head>
@@ -45,6 +46,26 @@
 
 <div class="img-header text-center flex justify-center mb-10">
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
+</div>
+
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Sophie Gosselin, philosophe</h1>
+<span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 11 octobre 2025, Luynes</span>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" class="frankie">
+        Habiter la Terre en commun
+    </a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">18h - Halle de Luynes</h2>
+<p class="text-base lg:text-2xl mb-4 italic">La conférence portera sur les expériences et modèles d'institutions qui redonnent aux habitants les moyens et les opportunités
+    d'habiter la Terre, en prenant en compte la pluralités des tissus relationnels, des affects et des imaginaires.</p>
+<p class="text-base lg:text-2xl mb-4">Sophie Gosselin est agrégée et docteure en philosophie. Son travail porte sur la crise écologique et le tournant ontologique.
+    Elle est membre de l'<a href="https://unipop-terre.fr/" target="_blank">université populaire de Tours et de la Terre</a> et du
+    <a href="https://www.parlementdeloire.fr/" target="_blank">collectif «Vers un parlement de Loire»</a>. Elle a récemment publié, aux éditions du Seuil,
+    <a href="https://www.seuil.com/ouvrage/la-condition-terrestre-sophie-gosselin/9782021439335" target="_blank">«La condition terrestre, habiter la Terre en commun»</a>,
+    avec David gé Bartoli.</p>
+
+<div class="flex justify-center">
+    <img src={habiterLaTerre} alt="Conférence Sophie Gosselin, habiter la Terre" class="w-[600px] max-w-full"/>
 </div>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Rémi Luglia</h1>
