@@ -57,7 +57,7 @@
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">18h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">La conférence portera sur les expériences et modèles d'institutions qui redonnent aux habitants les moyens et les opportunités
-    d'habiter la Terre, en prenant en compte la pluralités des tissus relationnels, des affects et des imaginaires.</p>
+    d'habiter la Terre, en prenant en compte la pluralité des tissus relationnels, des affects et des imaginaires.</p>
 <p class="text-base lg:text-2xl mb-4">Sophie Gosselin est agrégée et docteure en philosophie. Son travail porte sur la crise écologique et le tournant ontologique.
     Elle est membre de l'<a href="https://unipop-terre.fr/" target="_blank">université populaire de Tours et de la Terre</a> et du
     <a href="https://www.parlementdeloire.fr/" target="_blank">collectif «Vers un parlement de Loire»</a>. Elle a récemment publié, aux éditions du Seuil,
