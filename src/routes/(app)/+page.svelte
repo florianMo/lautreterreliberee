@@ -9,6 +9,7 @@
     import allerVers2 from "$lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
     import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
     import habiterLaTerre from "$lib/images/habiterLaTerre.png";
+    import bagneDesFous from "$lib/images/bagne-des-fous.jpeg";
 </script>
 
 <svelte:head>
@@ -47,6 +48,36 @@
 <div class="img-header text-center flex justify-center mb-10">
     <img src={afficheSansTexte} alt="Affiche Champ Libre 2023" class="w-60 max-w-full"/>
 </div>
+
+<h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Causerie populaire avec Véronique Fau-Vincenti</h1>
+<span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Jeudi 28 mai 2026, Luynes</span>
+<span class="frankie text-atl-red text-2xl md:text-4xl">
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/louis-rimbault-le-bagne-des-fous" target="_blank" class="frankie">Louis Rimbault & le bagne des fous</a>
+</span>
+<h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
+<p class="text-base lg:text-2xl mb-4 italic">
+    En mars 1910, un quartier asilaire dit de sûreté a ouvert au sein de l’asile de Villejuif. Il est réservé aux « aliénés criminels, vicieux, difficiles, habitués des asiles ».
+    Plus de 2500 hommes y ont été internés entre 1910 et 1960. Regroupés sous le qualificatif d’aliénés difficiles par commodité et par euphémisme, la plupart de ces hommes étaient
+    des trimards, des délinquants récidivistes, des escrocs patentés, des criminels alcooliques, des simulateurs de troubles mentaux, des fils de bonne famille punis ou encore des
+    « en dehors » à l’image de Louis Rimbault.
+</p>
+<p class="text-base lg:text-2xl mb-4 italic">
+    Considérés par les aliénistes comme des « débiles », des « déséquilibrés », des « antisociaux » ou encore des « anormaux », ces désaffiliés au ban de la société, se sont ainsi
+    côtoyés en ce lieu à la fois établissement de défense sociale à la française, infirmerie pénitentiaire et survivance de l’Hôpital général. L’histoire du quartier de sûreté dit
+    3e section de l’asile de Villejuif, surnommé le « le bagne des fous » dans la presse puis baptisé section Henri-Colin en l’honneur de son concepteur permet de dévoiler un pan
+    de l’histoire de la prise en charge psychiatrique entre 1910 et 1960 dans un espace où le mandat sécuritaire a rivalisé avec la mission hospitalière.
+</p>
+<p class="text-base lg:text-2xl mb-4">
+    Véronique Fau-Vincenti est historienne et responsable des collections du musée de l’Histoire vivante à Montreuil. Spécialiste de l’histoire sociale de la psychiatrie, elle a
+    publié en 2019 son travail de thèse : Le bagne des fous. Le premier quartier de sûreté psychiatrique 1910-1960.<br/>
+    <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank">sur Babelio</a><br/>
+    <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank">sur « Le Monde Diplomatique »</a>
+</p>
+
+<div class="flex justify-center">
+    <img src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
+</div>
+
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Sophie Gosselin, philosophe</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 11 octobre 2025, Luynes</span>
