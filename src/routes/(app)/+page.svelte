@@ -264,6 +264,9 @@
 </p>
 <p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a
         href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.</p>
+<p class="text-base mb-4">
+    <a href="{conferenceIllustreeAnneSteiner}" target="_blank">Transcription PDF</a>
+</p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Dimanche 2 juillet 2023</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
