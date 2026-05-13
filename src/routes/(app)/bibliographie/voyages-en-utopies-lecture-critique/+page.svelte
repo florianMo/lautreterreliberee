@@ -71,7 +71,7 @@
     compréhension d’un mouvement qui, à partir de la Révolution Française et de
     Gracchus Babeuf, a donné naissance à de nombreuses expériences empiriquement
     constitutives du plus grand mouvement politique de la fin du XIXe et du XXe siecle<RefLink number={8}/> :
-    le socialisme. Ce n’est pas parce que la droite conservatrice etatsunienne – relayée par
+    le socialisme. Ce n’est pas parce que la droite conservatrice états-unienne – relayée par
     quelques intellectuels français, pour la plupart ex-staliniens purs et durs - a poursuivi
     sa guerre froide en faisant des Lumières du XVIIIe siècle et des utopies du XIXe siècle
     la matrice d’un « totalitarisme » associant « communisme » et « nazisme », qu’il faut
@@ -145,10 +145,10 @@
     exclure les aliments les plus toxiques de son alimentation, se soigner par les plantes,
     éduquer les habitants... On peut évidemment les discuter sans les affubler d’un
     qualificatif inutile et insidieux. Il resterait à démontrer qu’un autre mode de vie aurait
-    plus de « nuance » : si les principes de « Terre Libérée » sont « extremistes », comment
+    plus de « nuance » : si les principes de « Terre Libérée » sont « extrémistes », comment
     qualifier dans ce cas ceux fondés sur l’esclavage, le travail forcé, l’exploitation de
     l’homme par l’homme, la destruction du monde vivant... ?<RefLink number={18}/> Le lexique médiatique de
-    la novlangue neolibérale obscurcit à dessein la libre analyse de « Terre Libérée » par
+    la novlangue néolibérale obscurcit à dessein la libre analyse de « Terre Libérée » par
     les lecteurs.
 </Paragraph>
 
@@ -173,7 +173,7 @@
     été intéressant puisque Marx et Engels, tout en critiquant le socialisme utopique
     comme réactionnaire au regard de l’histoire, s’intéressaient de près aux expériences
     utopiques en tant qu’exemples ou modèles de sociétés débarrassées de la propriété
-    privée et de l’Etat<RefLink number={22}/>.
+    privée et de l’État<RefLink number={22}/>.
 </Paragraph>
 
 <Title2>
@@ -199,9 +199,9 @@
 </Paragraph>
 
 <Paragraph>
-    Au même titre que le terme « extrêmiste », celui de « radical » demeure souvent
+    Au même titre que le terme « extrémiste », celui de « radical » demeure souvent
     aussi confus, inopérant et surtout anachronique en cette fin de siècle ou, en France,
-    un parti qualifié de « radical »<RefLink number={28}/> allait représenter – malgre ses références aux idéaux
+    un parti qualifié de « radical »<RefLink number={28}/> allait représenter – malgré ses références aux idéaux
     de la Gauche - les intérêts de la petite bourgeoisie républicaine. Les « lois naturelles »<RefLink number={29}/>
     chères aux anarchistes individualistes relèvent-elles donc, comme l’expliquent les
     auteurs, de la « conception radicale »<RefLink number={30}/> qu’en aurait eue Bakounine ? Qu’y a-t-il de
@@ -276,7 +276,7 @@
     communauté (p. 141-142). Il est donc dommage que, sur une question d’histoire déjà
     beaucoup étudiée dans sa diversité et comprenant des références incontournables, le
     chapitre sur « Terre Libérée », a priori prometteur, ne soit en definitive qu’un survol
-    simpliste, reducteur, aux idées reçues, laissant un goût amer éloigné de la rigueur
+    simpliste, réducteur, aux idées reçues, laissant un goût amer éloigné de la rigueur
     scientifique qu’il aurait méritée.
 </Paragraph>
 

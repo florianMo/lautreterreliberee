@@ -10,6 +10,7 @@
     import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
     import habiterLaTerre from "$lib/images/habiterLaTerre.png";
     import bagneDesFous from "$lib/images/bagne-des-fous.jpeg";
+    import conferenceIllustreeAnneSteiner from "$lib/images/conference-illustree-anne-steiner.pdf";
 </script>
 
 <svelte:head>
@@ -73,7 +74,7 @@
     <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank">sur Babelio</a><br/>
     <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank">sur « Le Monde Diplomatique »</a>
 </p>
-
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.
 <div class="flex justify-center">
     <img src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
 </div>
@@ -203,11 +204,9 @@
 <h2 class="text-base md:text-2xl text-atl-red font-bold">10h ➜ 18h - Boulevard Heurteloup - Tours</h2>
 <p class="text-base lg:text-2xl my-4">
     La Vegan Place est un événement co-organisé par le <a href="https://www.vegetarisme.fr/groupelocal/indre-et-loire/" target="_blank">groupe local tourangeau</a> de l'<a
-        href="https://www.vegetarisme.fr/" target="_blank">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/"
-                                                                                                                                     target="_blank">mouvement
+        href="https://www.vegetarisme.fr/" target="_blank">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/" target="_blank">mouvement
     Utopia</a>, <a href="https://www.l214.com/" target="_blank">L214</a> et <a href="https://www.code-animal.com/" target="_blank">Code Animal</a>. Elle accueillera un ensemble de
-    posters
-    documentaires créés par notre association autour de «Terre libérée» et du végétalisme dans les mouvements anarchistes.
+    posters documentaires créés par notre association autour de «Terre libérée» et du végétalisme dans les mouvements anarchistes.
 </p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Jeudi 25 avril 2024</span>
@@ -239,8 +238,7 @@
 </p>
 <p class="text-base my-2">
     Guillaume Davranche est journaliste et chercheur indépendant en histoire sociale. Il est l'auteur de «Trop jeunes pour mourir. Ouvriers et révolutionnaires face à la guerre
-    (1909-1914)» et de «Dix
-    questions sur l'anarchisme» chez Libertalia, et a codirigé le dictionnaire Maitron des anarchistes.
+    (1909-1914)» et de «Dix questions sur l'anarchisme» chez Libertalia, et a codirigé le dictionnaire Maitron des anarchistes.
 </p>
 <p class="text-base mb-4">
     <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution">Captation audio, éléments bibliographiques et repères historiques</a>
@@ -250,7 +248,7 @@
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Mardi 27 juin 2023</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://cafeshistoriques.com/programme/la-rencontre-de-louis-rimbault-et-des-causeries-anarchistes" class="frankie" target="_blank">«À la rencontre de Louis Rimbault et des causeries anarchistes»</a>
+    <a href="{conferenceIllustreeAnneSteiner}" class="frankie" target="_blank">«À la rencontre de Louis Rimbault et des causeries anarchistes»</a>
     <a href="https://osm.org/go/0AU8MOGON?way=68947126" target="blank">
         <Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/>
     </a>
