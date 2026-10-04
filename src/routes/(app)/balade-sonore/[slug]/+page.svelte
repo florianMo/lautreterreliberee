@@ -15,14 +15,14 @@
     <div class="mb-4">
         <a href="/balade-sonore" class="frankie text-2xl mb-6">Carte de la balade</a>
     </div>
-    <audio controls src={audioPath} class="w-full mb-6"/>
+    <audio controls preload="none" src={audioPath} class="w-full mb-6"/>
 
     <div class="balade-nav flex justify-between frankie text-4xl mt-8 mb-8 ml-3 mr-3">
         {#if data.previous}
-            <a href={`/balade-sonore/${data.previous.numero}`} class="previous" title="Ardoise précédente"/>
+            <a href={`/balade-sonore/${data.previous.numero}`} class="previous" title="Ardoise précédente"><span class="sr-only">Ardoise précédente</span></a>
         {/if}
         {#if data.next}
-            <a href={`/balade-sonore/${data.next.numero}`} class="next ml-auto" title="Ardoise suivante"/>
+            <a href={`/balade-sonore/${data.next.numero}`} class="next ml-auto" title="Ardoise suivante"><span class="sr-only">Ardoise suivante</span></a>
         {/if}
     </div>
 

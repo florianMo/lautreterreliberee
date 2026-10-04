@@ -53,7 +53,7 @@
 
 <div class="flex justify-center">
     <a class="max-w-xs" href="https://www.centre-valdeloire.fr/lactualite-de-la-region-centre-valdeloire/lancement-des-nouvelles-renaissances-2023" target="_blank">
-        <img src={labelRenaissance} alt="Label Renaissance(s) 2023"/>
+        <img loading="lazy" decoding="async" src={labelRenaissance} alt="Label Renaissance(s) 2023"/>
     </a>
 </div>
 
@@ -112,7 +112,7 @@
 </ul>
 
 <h2 class="frankie text-2xl md:text-4xl text-atl-red mb-4">Louis Rimbault, quelques repères</h2>
-<img src={mugshot} alt="Mugshot Louis Rimbault" class="w-48 float-left mr-4"/>
+<img loading="lazy" decoding="async" src={mugshot} alt="Photographie d'identité judiciaire de Louis Rimbault : un homme à moustache, en veste sombre" class="w-48 float-left mr-4"/>
 <p class="text-base md:text-xl mb-4">Né le 9 avril 1877 à Tours, mort le 10 novembre 1949 à Luynes. Tour à tour radical socialiste, anarchiste individualiste, syndicaliste et enfin «&nbsp;naturarchiste&nbsp;».
     Il devient végétalien vers 1910.</p>
 <p class="text-base md:text-xl mb-4">
@@ -129,7 +129,7 @@
     en août 1914.
 </p>
 
-<img src={rimbaultTransparent} alt="Portrait de Louis Rimbault" class="w-36 float-right"/>
+<img loading="lazy" decoding="async" src={rimbaultTransparent} alt="Portrait de Louis Rimbault" class="w-36 float-right"/>
 
 <p class="text-base md:text-xl mb-4">
     Mobilisé en 1915, il est affecté comme mécanicien ajusteur. Après la guerre, il devient ouvrier tôlier avant d’être licencié en mai 1919 pour militantisme syndical. Durant les grèves de la

@@ -10,12 +10,12 @@
     $: menuBgColor = $page.url.pathname.includes('/balade-sonore') ? 'bg-atl-brown' : 'bg-atl-red';
 </script>
 
-<div class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}">
+<nav aria-label="Menu principal" class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}">
     <a href="/" class={linkClasses}>Événements</a>
     <a href="/association" class={linkClasses}>L'association</a>
     <a href="/balade-sonore" class={linkClasses}>Balade sonore</a>
     <a href="/rucher-ecole-de-luynes" class={linkClasses}>Rucher école de Luynes</a>
-</div>
+</nav>
 
 <div class="container p-4 pt-16">
     <div class="inner">
@@ -24,9 +24,9 @@
 </div>
 <footer class="mb-6">
     <div class="footer text-center">
-        <img src={logoSmall} alt="Logo de l'association L'autre terre libérée à Luynes"/>
+        <img loading="lazy" decoding="async" src={logoSmall} alt="Logo de l'association L'autre terre libérée à Luynes"/>
         <a href="https://www.centre-valdeloire.fr/lactualite-de-la-region-centre-valdeloire/lancement-des-nouvelles-renaissances-2023" target="_blank">
-            <img src={labelRenaissance} alt="Label Renaissance(s) 2023"/>
+            <img loading="lazy" decoding="async" src={labelRenaissance} alt="Label Renaissance(s) 2023"/>
         </a>
     </div>
     <div class="flex justify-center text-sm">

@@ -68,7 +68,7 @@
 </p>
 <p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.
 <div class="flex justify-center">
-    <img src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
+    <img loading="lazy" decoding="async" src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
 </div>
 
 
@@ -89,7 +89,7 @@
     avec David gé Bartoli.</p>
 
 <div class="flex justify-center">
-    <img src={habiterLaTerre} alt="Conférence Sophie Gosselin, habiter la Terre" class="w-[600px] max-w-full"/>
+    <img loading="lazy" decoding="async" src={habiterLaTerre} alt="Conférence Sophie Gosselin, habiter la Terre" class="w-[600px] max-w-full"/>
 </div>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Rémi Luglia</h1>
@@ -139,7 +139,7 @@
     <a href="https://librairie-utopia.org/" target="_blank">Librairie Utopia</a>, 1 Rue Frédéric Sauton, 75005 Paris, <a href="tel:0985157191">09 85 15 71 91</a>
 </p>
 <a href="https://librairie-utopia.org/" target="_blank" class="flex justify-center">
-    <img src={librairieUtopia} alt="Logo librairie Utopia" class="w-[600px] max-w-full"/>
+    <img loading="lazy" decoding="async" src={librairieUtopia} alt="Logo librairie Utopia" class="w-[600px] max-w-full"/>
 </a>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Atelier contre-cartographie</h1>
@@ -177,7 +177,7 @@
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">12h30 - Terrain de l'association</h2>
 <p class="text-base lg:text-2xl mb-4">
-    <img src={miel} alt="Miel Laurent Guibert" class="w-60 max-w-full max-h-96 border-4 border-atl-black float-right"/>
+    <img loading="lazy" decoding="async" src={miel} alt="Miel Laurent Guibert" class="w-60 max-w-full max-h-96 border-4 border-atl-black float-right"/>
     Chaque participant est invité à préparer une spécialité culinaire, à la déposer sur la table pour partager le moment convivial du repas. Une
     buvette sera également disponible pour se désaltérer, proposant des boissons bio avec et sans alcool, sélectionnées auprès de producteurs locaux (chèque et espèces uniquement).<br/>
     Vente de miel local (Laurent Guibert, Monnaie) par le producteur.
@@ -342,5 +342,5 @@
     dans tous les Balkans.</p>
 
 <div class="text-center flex justify-center my-16">
-    <img src={rimbaultTransparent} alt="Portrait Louis Rimbault" class=""/>
+    <img loading="lazy" decoding="async" src={rimbaultTransparent} alt="Portrait Louis Rimbault" class=""/>
 </div>

@@ -79,15 +79,15 @@
         <figcaption class="bg-gray-200 text-center text-sm">Carte postale 1 - <a href={cp1} target="_blank">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-        <img class="w-full" src={cp2Small} alt="Carte postale 2"/>
+        <img loading="lazy" decoding="async" class="w-full" src={cp2Small} alt="Carte postale 2"/>
         <figcaption class="bg-gray-200 text-center text-sm">Carte postale 2 - <a href={cp2} target="_blank">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-        <img class="w-full" src={cp3Small} alt="Carte postale 3"/>
+        <img loading="lazy" decoding="async" class="w-full" src={cp3Small} alt="Carte postale 3"/>
         <figcaption class="bg-gray-200 text-center text-sm">Carte postale 3 - <a href={cp3} target="_blank">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-        <img class="w-full" src={cp4Small} alt="Carte postale 4"/>
+        <img loading="lazy" decoding="async" class="w-full" src={cp4Small} alt="Carte postale 4"/>
         <figcaption class="bg-gray-200 text-center text-sm">Carte postale 4 - <a href={cp4} target="_blank">Haute qualité</a></figcaption>
     </figure>
 </div>
@@ -107,12 +107,12 @@
 
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={ecrit1} alt="Ecrit 1"/>
+        <img loading="lazy" decoding="async" class="w-full" src={ecrit1} alt="Ecrit 1"/>
     </figure>
 </div>
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={ecrit2} alt="Ecrit 2"/>
+        <img loading="lazy" decoding="async" class="w-full" src={ecrit2} alt="Ecrit 2"/>
     </figure>
 </div>
 
@@ -122,7 +122,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic3} alt="Zooms personnages"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic3} alt="Zooms personnages"/>
     </figure>
 </div>
 
@@ -132,7 +132,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic4} alt="Zooms écritures"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic4} alt="Zooms écritures"/>
     </figure>
 </div>
 
@@ -143,11 +143,11 @@
 <div class="flex justify-center">
     <div class="w-[900px] flex flex-wrap w-full">
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic5} alt="Carte postale 1 verso"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic5} alt="Carte postale 1 verso"/>
             <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 1 - <a href={versosHd} target="_blank">Haute qualité</a></figcaption>
         </figure>
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic6} alt="Carte postale 2 verso"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic6} alt="Carte postale 2 verso"/>
             <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 2 - <a href={versosHd} target="_blank">Haute qualité</a></figcaption>
         </figure>
     </div>
@@ -165,7 +165,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic7} alt="Extraits cadastraux"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic7} alt="Extraits cadastraux"/>
         <figcaption class="bg-gray-200 text-center text-sm">
             <a href="https://archives.touraine.fr/ark:/37621/38n4905jgwkb/e86085c1-0c1a-42a6-9eeb-15552eff448c" target="_blank">Extraits cadastraux</a>
         </figcaption>
@@ -178,7 +178,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic8} alt="Elements architecturaux"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic8} alt="Elements architecturaux"/>
     </figure>
 </div>
 
@@ -188,7 +188,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic9} alt="Extrait recensement 1911"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic9} alt="Extrait recensement 1911"/>
     </figure>
 </div>
 
@@ -198,7 +198,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[400px] mx-w-full">
-        <img class="w-full" src={pic10} alt="Georges et Germaine Fouquet"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic10} alt="Georges et Germaine Fouquet"/>
         <figcaption class="bg-gray-200 text-center text-sm">Georges et Germaine Fouquet</figcaption>
     </figure>
 </div>
@@ -218,12 +218,12 @@
 
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic11} alt="Zooms écritures"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic11} alt="Zooms écritures"/>
     </figure>
 </div>
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic12} alt="Zooms écritures"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic12} alt="Zooms écritures"/>
     </figure>
 </div>
 
@@ -236,7 +236,7 @@
 
 <div class="flex justify-center">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic13} alt="Livret militaire de Georges Fouquet"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic13} alt="Livret militaire de Georges Fouquet"/>
     </figure>
 </div>
 
@@ -249,7 +249,7 @@
 
 <div class="flex justify-center mb-4">
     <figure class="w-[600px] mx-w-full">
-        <img class="w-full" src={pic14} alt="Verso carte postale numéro 3"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic14} alt="Verso carte postale numéro 3"/>
     </figure>
 </div>
 
@@ -271,7 +271,7 @@
 
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic15} alt="Carte 3"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic15} alt="Carte 3"/>
     </figure>
 </div>
 
@@ -282,10 +282,10 @@
 <div class="flex justify-center">
     <div class="w-[900px] flex flex-wrap items-center">
         <figure class="w-full md:w-1/2 mx-w-full">
-            <img class="w-full" src={pic16} alt="Extrait carte 2 verso"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic16} alt="Extrait carte 2 verso"/>
         </figure>
         <figure class="w-full md:w-1/2 mx-w-full">
-            <img class="w-full" src={pic17} alt="Extrait carte 2 verso"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic17} alt="Extrait carte 2 verso"/>
         </figure>
     </div>
 </div>
@@ -296,17 +296,17 @@
 
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic18} alt="La touraine républicaine extrait 1"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic18} alt="La touraine républicaine extrait 1"/>
     </figure>
 </div>
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic19} alt="La touraine républicaine extrait 2"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic19} alt="La touraine républicaine extrait 2"/>
     </figure>
 </div>
 <div class="flex justify-center mb-4">
     <figure class="w-[900px] mx-w-full">
-        <img class="w-full" src={pic20} alt="La touraine républicaine extrait 3"/>
+        <img loading="lazy" decoding="async" class="w-full" src={pic20} alt="La touraine républicaine extrait 3"/>
     </figure>
 </div>
 
@@ -328,10 +328,10 @@
 <div class="flex justify-center">
     <div class="w-[1000px] flex flex-wrap">
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic21} alt="Carte postale 1 colorisée"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic21} alt="Carte postale 1 colorisée"/>
         </figure>
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic22} alt="Carte postale 2 colorisée"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic22} alt="Carte postale 2 colorisée"/>
         </figure>
     </div>
 </div>
@@ -349,10 +349,10 @@
 <div class="flex justify-center">
     <div class="w-[1000px] flex flex-wrap">
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic23} alt="Carte postale 1 colorisée"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic23} alt="Carte postale 1 colorisée"/>
         </figure>
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
-            <img class="w-full" src={pic24} alt="Carte postale 2 colorisée"/>
+            <img loading="lazy" decoding="async" class="w-full" src={pic24} alt="Carte postale 2 colorisée"/>
         </figure>
     </div>
 </div>

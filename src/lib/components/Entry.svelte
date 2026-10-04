@@ -39,7 +39,7 @@
     {/if}
     {#if imageName}
         <div class="flex justify-center my-4">
-            <img class="max-h-96 border-4 border-atl-black" src="{imagePath}" alt="{imageAlt}"/>
+            <img loading="lazy" decoding="async" class="max-h-96 border-4 border-atl-black" src="{imagePath}" alt="{imageAlt}"/>
         </div>
     {/if}
 </li>
