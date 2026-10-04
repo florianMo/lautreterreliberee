@@ -1,10 +1,10 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import cartePostale from "$lib/images/carte-postale.png";
-    import mugshot from "$lib/images/mugshot.png";
-    import presentationAssociationPdf from "$lib/images/l-autre-terre-liberee.pdf";
-    import labelRenaissance from "$lib/images/label-renaissance-2023.jpg";
+    import { SITE_URL } from '#lib/site.js';
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import cartePostale from "#lib/images/carte-postale.png";
+    import mugshot from "#lib/images/mugshot.png";
+    import presentationAssociationPdf from "#lib/images/l-autre-terre-liberee.pdf";
+    import labelRenaissance from "#lib/images/label-renaissance-2023.jpg";
 </script>
 
 <svelte:head>

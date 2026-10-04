@@ -1,9 +1,9 @@
 <script>
-    import mugshot from "$lib/images/mugshot.png";
-    import scan from "$lib/images/scan.png";
-    import cartePostale from "$lib/images/carte-postale.png";
-    import ecoute from "$lib/images/ecoute.png";
-    import PodcastLink from "$lib/components/PodcastLink.svelte";
+    import mugshot from "#lib/images/mugshot.png";
+    import scan from "#lib/images/scan.png";
+    import cartePostale from "#lib/images/carte-postale.png";
+    import ecoute from "#lib/images/ecoute.png";
+    import PodcastLink from "#lib/components/PodcastLink.svelte";
 </script>
 
 <svelte:head>

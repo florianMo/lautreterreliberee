@@ -1,17 +1,17 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import afficheSansTexte from "$lib/images/affiche-sanstexte.png";
+    import { SITE_URL } from '#lib/site.js';
+    import afficheSansTexte from "#lib/images/affiche-sanstexte.png";
     import Icon from "svelte-awesome";
     import map from "svelte-awesome/icons/map";
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import miel from "$lib/images/miel.jpeg";
-    import librairieUtopia from "$lib/images/librairie-utopia.png";
-    import allerVers1 from "$lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
-    import allerVers2 from "$lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
-    import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
-    import habiterLaTerre from "$lib/images/habiterLaTerre.png";
-    import bagneDesFous from "$lib/images/bagne-des-fous.jpeg";
-    import conferenceIllustreeAnneSteiner from "$lib/images/conference-illustree-anne-steiner.pdf";
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import miel from "#lib/images/miel.jpeg";
+    import librairieUtopia from "#lib/images/librairie-utopia.png";
+    import allerVers1 from "#lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
+    import allerVers2 from "#lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
+    import allerVers3 from "#lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
+    import habiterLaTerre from "#lib/images/habiterLaTerre.png";
+    import bagneDesFous from "#lib/images/bagne-des-fous.jpeg";
+    import conferenceIllustreeAnneSteiner from "#lib/images/conference-illustree-anne-steiner.pdf";
 </script>
 
 <svelte:head>
