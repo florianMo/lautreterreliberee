@@ -66,7 +66,7 @@
     <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank" rel="noopener noreferrer">sur Babelio</a><br/>
     <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank" rel="noopener noreferrer">sur « Le Monde Diplomatique »</a>
 </p>
-<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.</p>
 <div class="flex justify-center">
     <img loading="lazy" decoding="async" src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
 </div>

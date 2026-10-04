@@ -44,7 +44,7 @@
         allow="geolocation"
         class="my-8"
         src="https://umap.openstreetmap.fr/fr/map/balade-sonore-a-la-rencontre-de-louis-rimbault_939821?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"
-/>
+></iframe>
 
 <p class="frankie my-2 text-2xl text-atl-brown">Départ sous la halle de Luynes</p>
 
