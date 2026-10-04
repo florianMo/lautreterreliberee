@@ -79,21 +79,13 @@ Ajoute un vhost sur le port 80 qui redirige vers HTTPS. Active le vhost HTTPS se
 
 ## Mettre à jour le site
 
-Depuis la racine du dépôt, avec l'utilisateur qui fait tourner l'application :
-
 ```bash
-./deploy.sh
+deploy-lautreterreliberee
 ```
 
 Le script exécute `git pull --ff-only`, `npm ci`, `npm run build`, puis `pm2 restart` (le nom de l'application PM2 est `lautreterreliberee` ; change-le avec la variable `APP_NAME` si besoin).
 
 `npm ci` est indispensable à chaque mise à jour : les dépendances d'exécution (`svelte-awesome`) sont lues depuis `node_modules`, et le build a besoin des dépendances de développement. Une courte interruption est possible pendant l'installation.
-
-Depuis un compte administrateur, on peut l'appeler ainsi :
-
-```bash
-sudo -u <utilisateur> -H /chemin/vers/le/dossier/deploy.sh
-```
 
 ## Retour arrière
 
