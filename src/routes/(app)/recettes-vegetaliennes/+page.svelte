@@ -32,7 +32,7 @@
 </svelte:head>
 
 <Title1>Recettes végétaliennes pour vivre 100 ans</Title1>
-<a href={recettesPdf} target="_blank" class="block text-center text-xl font-bold">Source, in «Le Néo-Naturien» n°22, août-octobre 1927</a>
+<a href={recettesPdf} target="_blank" rel="noopener noreferrer" class="block text-center text-xl font-bold">Source, in «Le Néo-Naturien» n°22, août-octobre 1927</a>
 
 <Paragraph cssClass="text-lg">
     Le caractère primordial de l’alimentation végétalienne, c’est son principe d’infinie variété dans la composition des mets, assurant une digestion complète, parfaite.

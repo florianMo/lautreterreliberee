@@ -112,7 +112,7 @@
 
     Un dialogue imaginaire, même aussi caricatural, aurait pu faciliter la compréhension
     du végétalisme du couple. Ce n’est pas le cas pour une simple raison : il est facile de se
-    procurer la composition de la Basconnaise en consultant les archives<RefLink number={12}/> ou <a href="/balade-sonore/6" target="_blank">le site de
+    procurer la composition de la Basconnaise en consultant les archives<RefLink number={12}/> ou <a href="/balade-sonore/6" target="_blank" rel="noopener noreferrer">le site de
     « L’Autre Terre Libérée »</a> et vérifier que les plantes aromatiques ne sont nullement
     proscrites par Rimbault : parmi les nombreux ingrédients de la Basconnaise on
     trouve, comme « poisons capitalistes », ces « condiments associés au choix : poireaux,

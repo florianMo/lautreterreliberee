@@ -10,15 +10,15 @@
     export let highlight = false;
     $: imagePath = `/images/bibliographie/${imageName}`;
 
-    let liClass = highlight ? 'bg-atl-red text-white py-2 px-4 my-2' : '';
-    let extractClass = highlight ? 'text-sm text-white' : 'text-sm my-2 py-2 px-4 bg-atl-black text-white';
+    $: liClass = highlight ? 'bg-atl-red text-white py-2 px-4 my-2' : '';
+    $: extractClass = highlight ? 'text-sm text-white' : 'text-sm my-2 py-2 px-4 bg-atl-black text-white';
 </script>
 
 <li class={liClass}>
     <p class="text-lg">
         {#if author}
             {#if authorLink}
-                <a href="{authorLink}" target="_blank">{author}</a>,
+                <a href="{authorLink}" target="_blank" rel="noopener noreferrer">{author}</a>,
             {:else}
                 {author},
             {/if}
@@ -26,7 +26,7 @@
 
         <span class="italic font-bold">
             {#if titleLink}
-                <a href="{titleLink}" target="_blank">{title}</a>,&nbsp;
+                <a href="{titleLink}" target="_blank" rel="noopener noreferrer">{title}</a>,&nbsp;
             {:else}
                 {title},&nbsp;
             {/if}

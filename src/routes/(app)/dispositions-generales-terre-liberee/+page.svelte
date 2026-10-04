@@ -29,7 +29,7 @@
 </svelte:head>
 
 <h1 class="frankie text-center text-2xl md:text-4xl mb-4">Extrait des dispositions générales sur le fonctionnement<br/>de la cité végétalienne «Terre Libérée»</h1>
-<a class="block text-center text-xl font-bold" href="{source}" target="_blank">Source, in «Le Néo-Naturien» n°15, décembre 1923</a>
+<a class="block text-center text-xl font-bold" href="{source}" target="_blank" rel="noopener noreferrer">Source, in «Le Néo-Naturien» n°15, décembre 1923</a>
 
 <p class="text-lg my-2">Les Végétaliens ne veulent pas être orgueilleux ou assez vains pour croire imposer, à une cité d'hommes libres, les règles d'une éthique.</p>
 <p class="text-lg my-2">Ce qui suit est plutôt dédié à l'esprit malveillant des mauvais bergers aux mains blanches qui brocantent leur idéal à tant la ligne, en attendant qu'ils se casent ou se "reposent" et qui dénient à tout mouton le pouvoir de s'évader, pour mieux vivre de sa laine.</p>

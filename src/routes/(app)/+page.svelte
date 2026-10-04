@@ -45,7 +45,7 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Causerie populaire avec Véronique Fau-Vincenti</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Jeudi 28 mai 2026, Luynes</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/louis-rimbault-le-bagne-des-fous" target="_blank" class="frankie">Louis Rimbault & le bagne des fous</a>
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/louis-rimbault-le-bagne-des-fous" target="_blank" rel="noopener noreferrer" class="frankie">Louis Rimbault & le bagne des fous</a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">
@@ -63,10 +63,10 @@
 <p class="text-base lg:text-2xl mb-4">
     Véronique Fau-Vincenti est historienne et responsable des collections du musée de l’Histoire vivante à Montreuil. Spécialiste de l’histoire sociale de la psychiatrie, elle a
     publié en 2019 son travail de thèse : Le bagne des fous. Le premier quartier de sûreté psychiatrique 1910-1960.<br/>
-    <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank">sur Babelio</a><br/>
-    <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank">sur « Le Monde Diplomatique »</a>
+    <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank" rel="noopener noreferrer">sur Babelio</a><br/>
+    <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank" rel="noopener noreferrer">sur « Le Monde Diplomatique »</a>
 </p>
-<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.
 <div class="flex justify-center">
     <img loading="lazy" decoding="async" src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
 </div>
@@ -75,7 +75,7 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Sophie Gosselin, philosophe</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 11 octobre 2025, Luynes</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" class="frankie">
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" rel="noopener noreferrer" class="frankie">
         Habiter la Terre en commun
     </a>
 </span>
@@ -83,9 +83,9 @@
 <p class="text-base lg:text-2xl mb-4 italic">La conférence portera sur les expériences et modèles d'institutions qui redonnent aux habitants les moyens et les opportunités
     d'habiter la Terre, en prenant en compte la pluralité des tissus relationnels, des affects et des imaginaires.</p>
 <p class="text-base lg:text-2xl mb-4">Sophie Gosselin est agrégée et docteure en philosophie. Son travail porte sur la crise écologique et le tournant ontologique.
-    Elle est membre de l'<a href="https://unipop-terre.fr/" target="_blank">université populaire de Tours et de la Terre</a> et du
-    <a href="https://www.parlementdeloire.fr/" target="_blank">collectif «Vers un parlement de Loire»</a>. Elle a récemment publié, aux éditions du Seuil,
-    <a href="https://www.seuil.com/ouvrage/la-condition-terrestre-sophie-gosselin/9782021439335" target="_blank">«La condition terrestre, habiter la Terre en commun»</a>,
+    Elle est membre de l'<a href="https://unipop-terre.fr/" target="_blank" rel="noopener noreferrer">université populaire de Tours et de la Terre</a> et du
+    <a href="https://www.parlementdeloire.fr/" target="_blank" rel="noopener noreferrer">collectif «Vers un parlement de Loire»</a>. Elle a récemment publié, aux éditions du Seuil,
+    <a href="https://www.seuil.com/ouvrage/la-condition-terrestre-sophie-gosselin/9782021439335" target="_blank" rel="noopener noreferrer">«La condition terrestre, habiter la Terre en commun»</a>,
     avec David gé Bartoli.</p>
 
 <div class="flex justify-center">
@@ -95,20 +95,20 @@
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Conférence de Rémi Luglia</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Mercredi 11 juin 2025, Luynes</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" class="frankie">
+    <a href="https://cafeshistoriques.com/agenda-les-cafes-historiques/les-enjeux-actuels-et-venir-de-la-protection-de-la-biodiversite" target="_blank" rel="noopener noreferrer" class="frankie">
         Les enjeux actuels et à venir de la protection de la biodiversité
     </a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
-<p class="text-base lg:text-2xl mb-4 italic">En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le cadre des
-    <a href="https://cafeshistoriques.com/" target="_blank">cafés historiques en région Centre Val-de-Loire</a>.</p>
+<p class="text-base lg:text-2xl mb-4 italic">En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank" rel="noopener noreferrer">Rendez-vous de l'histoire de Blois</a>, dans le cadre des
+    <a href="https://cafeshistoriques.com/" target="_blank" rel="noopener noreferrer">cafés historiques en région Centre Val-de-Loire</a>.</p>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Balade sonore et chantée avec PTYX</h1>
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Samedi 3 mai 2025, Luynes</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">Balade sonore dans le cadre du festival Easy Listening</span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">14h30 - Départ de la halle de Luynes - Podcasts, chants</h2>
-<p class="text-base lg:text-2xl mb-4 italic">Dans le cadre du festival <a target="_blank" href="https://www.ensembleptyx.com/easy-listening-2025/">Easy Listening</a> organisé par
-    l'<a href="https://www.ensembleptyx.com" target="_blank">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>,
+<p class="text-base lg:text-2xl mb-4 italic">Dans le cadre du festival <a target="_blank" rel="noopener noreferrer" href="https://www.ensembleptyx.com/easy-listening-2025/">Easy Listening</a> organisé par
+    l'<a href="https://www.ensembleptyx.com" target="_blank" rel="noopener noreferrer">ensemble PTYX</a>, nous vous invitons à (re)parcourir la <a target="_blank" rel="noopener noreferrer" href="/balade-sonore">balade sonore sur les traces de «Terre Libérée»</a>,
     animée de chants.</p>
 <p class="text-base lg:text-2xl mb-4 italic">A partir de 19h, improvisations verbales et musicales autour de dégustations de bières, vins bio ou naturels, locaux, «Des sons sous la
     Terre», 35 vallée de Vaugareau.</p>
@@ -119,15 +119,15 @@
 <h2 class="text-base md:text-2xl text-atl-red font-bold">17h - Salle de l'Europe - 2, rue Paul-Louis Courier (sous-sol de l'ancienne bibliothèque, porte arrière) - Luynes</h2>
 <p class="text-base lg:text-2xl mb-4 italic">Dans une époque marquée par l'isolement, les inégalités croissantes et la fragmentation du lien social, aller vers l'autre devient un
     acte résolument politique. L'association L'Autre Terre Libérée vous propose une rencontre avec Jérôme Guillet, auteur du <a
-            href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank">Petit manuel de travail dans l'espace
+            href="https://www.editionsducommun.org/products/petit-manuel-de-travail-dans-l-espace-public-jerome-guillet" target="_blank" rel="noopener noreferrer">Petit manuel de travail dans l'espace
         public</a>.</p>
 <p class="text-base lg:text-2xl mb-4 italic">L'éducation populaire, pilier historique des luttes pour l'émancipation, trouve aujourd'hui une actualité brûlante : comment, dans
     l'espace public, recréer du commun avec les habitants ? Cette soirée sera animée par des témoignages et des discussions pour nous donner matière à agir.</p>
 <p class="text-base my-2">Textes de Jérôme Guillet :</p>
 <ul>
-    <li><a href="{allerVers1}" target="_blank">Comment interagir avec les habitants ?</a></li>
-    <li><a href="{allerVers2}" target="_blank">Enquêtes exploratoires et campagnes relationnelles</a></li>
-    <li><a href="{allerVers3}" target="_blank">Ce qui nous sépare de l'«aller vers»</a></li>
+    <li><a href="{allerVers1}" target="_blank" rel="noopener noreferrer">Comment interagir avec les habitants ?</a></li>
+    <li><a href="{allerVers2}" target="_blank" rel="noopener noreferrer">Enquêtes exploratoires et campagnes relationnelles</a></li>
+    <li><a href="{allerVers3}" target="_blank" rel="noopener noreferrer">Ce qui nous sépare de l'«aller vers»</a></li>
 </ul>
 
 <h1 class="frankie text-2xl md:text-4xl lg:text-6xl text-center text-white bg-atl-black p-4 my-8">Exposition à la librairie Utopia</h1>
@@ -136,9 +136,9 @@
 <p class="text-base lg:text-2xl mb-4 italic">Entrée libre du mercredi au samedi de 13h30 à 19h30. Vernissage le mercredi 11 décembre à 19h. Cette exposition retrace les éléments
     clés de la vie de Louis Rimbault qui le mène à créer à Luynes entre 1923 et 1949 une école de pratique végétalienne.</p>
 <p class="text-base lg:text-2xl mb-4">
-    <a href="https://librairie-utopia.org/" target="_blank">Librairie Utopia</a>, 1 Rue Frédéric Sauton, 75005 Paris, <a href="tel:0985157191">09 85 15 71 91</a>
+    <a href="https://librairie-utopia.org/" target="_blank" rel="noopener noreferrer">Librairie Utopia</a>, 1 Rue Frédéric Sauton, 75005 Paris, <a href="tel:0985157191">09 85 15 71 91</a>
 </p>
-<a href="https://librairie-utopia.org/" target="_blank" class="flex justify-center">
+<a href="https://librairie-utopia.org/" target="_blank" rel="noopener noreferrer" class="flex justify-center">
     <img loading="lazy" decoding="async" src={librairieUtopia} alt="Logo librairie Utopia" class="w-[600px] max-w-full"/>
 </a>
 
@@ -157,7 +157,7 @@
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">10h > 12h - Départ de la halle de Luynes - <a href="/balade-sonore/1">Podcasts</a></h2>
 <p class="text-base lg:text-2xl mb-4">
-    <a href="/balade-sonore" target="_blank">Promenade d’environ 2h</a>, parsemée de <a href="/balade-sonore/1">podcasts</a> pour découvrir l’histoire
+    <a href="/balade-sonore" target="_blank" rel="noopener noreferrer">Promenade d’environ 2h</a>, parsemée de <a href="/balade-sonore/1">podcasts</a> pour découvrir l’histoire
     de Louis Rimbault et de son école de pratique
     végétalienne Terre Libérée. Cette balade sonore proposée par l’association L’autre Terre Libérée vous raconte cette expérience qui a eu lieu à Luynes
     entre 1923 et 1949, et qui a disparu des mémoires collectives. Tout au long du parcours, des ardoises informatives vous invitent à scanner des QR
@@ -191,35 +191,35 @@
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Samedi 15 juin 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="https://www.vegetarisme.fr/agenda/vegan-place-a-tours-37-2/" class="frankie" target="_blank">Participation à la Vegan Place 2024</a>
+    <a href="https://www.vegetarisme.fr/agenda/vegan-place-a-tours-37-2/" class="frankie" target="_blank" rel="noopener noreferrer">Participation à la Vegan Place 2024</a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">10h ➜ 18h - Boulevard Heurteloup - Tours</h2>
 <p class="text-base lg:text-2xl my-4">
-    La Vegan Place est un événement co-organisé par le <a href="https://www.vegetarisme.fr/groupelocal/indre-et-loire/" target="_blank">groupe local tourangeau</a> de l'<a
-        href="https://www.vegetarisme.fr/" target="_blank">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/" target="_blank">mouvement
-    Utopia</a>, <a href="https://www.l214.com/" target="_blank">L214</a> et <a href="https://www.code-animal.com/" target="_blank">Code Animal</a>. Elle accueillera un ensemble de
+    La Vegan Place est un événement co-organisé par le <a href="https://www.vegetarisme.fr/groupelocal/indre-et-loire/" target="_blank" rel="noopener noreferrer">groupe local tourangeau</a> de l'<a
+        href="https://www.vegetarisme.fr/" target="_blank" rel="noopener noreferrer">Association Végétarienne de France</a> (AVF), l'antenne tourangelle du <a href="https://mouvementutopia.org/site/" target="_blank" rel="noopener noreferrer">mouvement
+    Utopia</a>, <a href="https://www.l214.com/" target="_blank" rel="noopener noreferrer">L214</a> et <a href="https://www.code-animal.com/" target="_blank" rel="noopener noreferrer">Code Animal</a>. Elle accueillera un ensemble de
     posters documentaires créés par notre association autour de «Terre libérée» et du végétalisme dans les mouvements anarchistes.
 </p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Jeudi 25 avril 2024</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
     <a href="conferences/guillaume-davranche-la-greve-des-metallos-et-la-revolution" class="frankie"
-       target="_blank">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
+       target="_blank" rel="noopener noreferrer">«Louis Rimbault 1919 : la grève des métallos et la révolution»</a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl my-4">
-    Conférence de <a href="https://www.babelio.com/auteur/Guillaume-Davranche/337582" target="_blank">Guillaume Davranche</a>, journaliste et chercheur indépendant en histoire
+    Conférence de <a href="https://www.babelio.com/auteur/Guillaume-Davranche/337582" target="_blank" rel="noopener noreferrer">Guillaume Davranche</a>, journaliste et chercheur indépendant en histoire
     sociale. Auteur de <a
-        href="https://editionslibertalia.com/catalogue/coeditions/trop-jeunes-pour-mourir" target="_blank">Trop jeune pour mourir</a>, <a
-        href="https://editionslibertalia.com/catalogue/dix-questions/dix-questions-sur-l-anarchisme" target="_blank">Dix questions sur l'anarchisme</a>, <a
+        href="https://editionslibertalia.com/catalogue/coeditions/trop-jeunes-pour-mourir" target="_blank" rel="noopener noreferrer">Trop jeune pour mourir</a>, <a
+        href="https://editionslibertalia.com/catalogue/dix-questions/dix-questions-sur-l-anarchisme" target="_blank" rel="noopener noreferrer">Dix questions sur l'anarchisme</a>, <a
         href="https://editionsatelier.com/boutique/maitron-/235-les-anarchistes-dictionnaire-biographique-du-mouvement-libertaire-francophone-9782708243163.html"
-        target="_blank">Les anarchistes -
-    Dictionnaire bibliographique du mouvement libertaire francophone</a>. En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de
+        target="_blank" rel="noopener noreferrer">Les anarchistes -
+    Dictionnaire bibliographique du mouvement libertaire francophone</a>. En partenariat avec les <a href="https://rdv-histoire.com/" target="_blank" rel="noopener noreferrer">Rendez-vous de l'histoire de
     Blois</a>, dans le
-    cadre des <a href="https://cafeshistoriques.com/" target="_blank">cafés historiques en région
+    cadre des <a href="https://cafeshistoriques.com/" target="_blank" rel="noopener noreferrer">cafés historiques en région
     Centre Val-de-Loire</a>.
 </p>
-<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.
 </p>
 <p class="text-base my-2">
     Au sortir de la Grande Guerre, le syndicalisme révolutionnaire remonte en flèche, le pays est en ébullition, et cela se traduit notamment par la grande grève de la métallurgie
@@ -240,24 +240,24 @@
 
 <span class="frankie text-atl-black text-2xl md:text-6xl block">Mardi 27 juin 2023</span>
 <span class="frankie text-atl-red text-2xl md:text-4xl">
-    <a href="{conferenceIllustreeAnneSteiner}" class="frankie" target="_blank">«À la rencontre de Louis Rimbault et des causeries anarchistes»</a>
+    <a href="{conferenceIllustreeAnneSteiner}" class="frankie" target="_blank" rel="noopener noreferrer">«À la rencontre de Louis Rimbault et des causeries anarchistes»</a>
     <a href="https://osm.org/go/0AU8MOGON?way=68947126" target="blank">
         <Icon data={map} class="w-4 md:w-8 h-4 md:h-8"/>
     </a>
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">19h - Halle de Luynes</h2>
 <p class="text-base lg:text-2xl mb-4">
-    Conférence d'<a href="https://fr.wikipedia.org/wiki/Anne_Steiner" target="_blank">Anne Steiner</a>, sociologue, spécialiste du <a
+    Conférence d'<a href="https://fr.wikipedia.org/wiki/Anne_Steiner" target="_blank" rel="noopener noreferrer">Anne Steiner</a>, sociologue, spécialiste du <a
         href="https://fr.wikipedia.org/wiki/Anarchisme_individualiste"
-        target="_blank">mouvement individualiste anarchiste</a>, en partenariat avec les
-    <a href="https://rdv-histoire.com/" target="_blank">Rendez-vous de l'histoire de Blois</a>, dans le cadre des <a href="https://cafeshistoriques.com/" target="_blank">cafés
+        target="_blank" rel="noopener noreferrer">mouvement individualiste anarchiste</a>, en partenariat avec les
+    <a href="https://rdv-histoire.com/" target="_blank" rel="noopener noreferrer">Rendez-vous de l'histoire de Blois</a>, dans le cadre des <a href="https://cafeshistoriques.com/" target="_blank" rel="noopener noreferrer">cafés
     historiques en région
     Centre Val-de-Loire</a>.
 </p>
 <p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a
-        href="https://www.canalbd.net/bedelire" target="_blank">Bédélire</a>.</p>
+        href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.</p>
 <p class="text-base mb-4">
-    <a href="{conferenceIllustreeAnneSteiner}" target="_blank">Transcription PDF</a>
+    <a href="{conferenceIllustreeAnneSteiner}" target="_blank" rel="noopener noreferrer">Transcription PDF</a>
 </p>
 
 <span class="frankie text-atl-black text-2xl md:text-6xl mt-8 block">Dimanche 2 juillet 2023</span>
@@ -269,7 +269,7 @@
 </span>
 <h2 class="text-base md:text-2xl text-atl-red font-bold">10h > 12h - Départ de la halle de Luynes - <a href="/balade-sonore/1">Podcasts</a></h2>
 <p class="text-base lg:text-2xl mb-4">
-    <a href="/balade-sonore" target="_blank">Promenade d’environ 2h</a>, parsemée de <a href="/balade-sonore/1">podcasts</a> pour découvrir l’histoire
+    <a href="/balade-sonore" target="_blank" rel="noopener noreferrer">Promenade d’environ 2h</a>, parsemée de <a href="/balade-sonore/1">podcasts</a> pour découvrir l’histoire
     de Louis Rimbault et de son école de pratique
     végétalienne Terre Libérée. Cette balade sonore proposée par l’association L’autre Terre Libérée vous raconte cette expérience qui a eu lieu à
     Luynes

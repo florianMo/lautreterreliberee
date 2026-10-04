@@ -28,8 +28,8 @@
     les articles essentiels et les travaux les plus récents. Bibliographie évolutive, elle sera complétée au fur et à mesure
     de l’avancée des recherches. Nous avons, lorsque cela était possible, indiqué les liens permettant à toutes et tous
     d’accéder aux références citées. On se permettra de signaler le travail pionnier de l’historien <a
-        href="https://fr.wikipedia.org/wiki/Jean_Maitron" target="_blank">Jean Maitron</a> (1910-1987), créateur du Centre d’Histoire du
-    Syndicalisme en 1966 (devenu le <a target="_blank" href="https://histoire-sociale.cnrs.fr/">Centre
+        href="https://fr.wikipedia.org/wiki/Jean_Maitron" target="_blank" rel="noopener noreferrer">Jean Maitron</a> (1910-1987), créateur du Centre d’Histoire du
+    Syndicalisme en 1966 (devenu le <a target="_blank" rel="noopener noreferrer" href="https://histoire-sociale.cnrs.fr/">Centre
     d'Histoire Sociale des Mondes Contemporains</a>),
     de la revue Le Mouvement social et du Dictionnaire
     biographique du mouvement ouvrier.

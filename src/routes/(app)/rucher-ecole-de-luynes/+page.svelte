@@ -70,25 +70,25 @@
 <Title1>Le rucher école de Luynes</Title1>
 
 <Paragraph cssClass="text-center">
-    <a class="text-xl text-center font-bold" href={versionPdf} target="_blank">Version PDF</a>
+    <a class="text-xl text-center font-bold" href={versionPdf} target="_blank" rel="noopener noreferrer">Version PDF</a>
 </Paragraph>
 
 <div class="flex flex-wrap w-full">
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
         <img class="w-full" src={cp1Small} alt="Carte postale 1"/>
-        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 1 - <a href={cp1} target="_blank">Haute qualité</a></figcaption>
+        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 1 - <a href={cp1} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
         <img loading="lazy" decoding="async" class="w-full" src={cp2Small} alt="Carte postale 2"/>
-        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 2 - <a href={cp2} target="_blank">Haute qualité</a></figcaption>
+        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 2 - <a href={cp2} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
         <img loading="lazy" decoding="async" class="w-full" src={cp3Small} alt="Carte postale 3"/>
-        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 3 - <a href={cp3} target="_blank">Haute qualité</a></figcaption>
+        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 3 - <a href={cp3} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
     </figure>
     <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
         <img loading="lazy" decoding="async" class="w-full" src={cp4Small} alt="Carte postale 4"/>
-        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 4 - <a href={cp4} target="_blank">Haute qualité</a></figcaption>
+        <figcaption class="bg-gray-200 text-center text-sm">Carte postale 4 - <a href={cp4} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
     </figure>
 </div>
 
@@ -144,11 +144,11 @@
     <div class="w-[900px] flex flex-wrap w-full">
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
             <img loading="lazy" decoding="async" class="w-full" src={pic5} alt="Carte postale 1 verso"/>
-            <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 1 - <a href={versosHd} target="_blank">Haute qualité</a></figcaption>
+            <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 1 - <a href={versosHd} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
         </figure>
         <figure class="w-full md:w-1/2 mx-w-full flex flex-col justify-between">
             <img loading="lazy" decoding="async" class="w-full" src={pic6} alt="Carte postale 2 verso"/>
-            <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 2 - <a href={versosHd} target="_blank">Haute qualité</a></figcaption>
+            <figcaption class="bg-gray-200 text-center text-sm">Verso carte postale 2 - <a href={versosHd} target="_blank" rel="noopener noreferrer">Haute qualité</a></figcaption>
         </figure>
     </div>
 </div>
@@ -167,7 +167,7 @@
     <figure class="w-[900px] mx-w-full">
         <img loading="lazy" decoding="async" class="w-full" src={pic7} alt="Extraits cadastraux"/>
         <figcaption class="bg-gray-200 text-center text-sm">
-            <a href="https://archives.touraine.fr/ark:/37621/38n4905jgwkb/e86085c1-0c1a-42a6-9eeb-15552eff448c" target="_blank">Extraits cadastraux</a>
+            <a href="https://archives.touraine.fr/ark:/37621/38n4905jgwkb/e86085c1-0c1a-42a6-9eeb-15552eff448c" target="_blank" rel="noopener noreferrer">Extraits cadastraux</a>
         </figcaption>
     </figure>
 </div>
