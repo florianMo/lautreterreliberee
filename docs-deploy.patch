@@ -1,0 +1,233 @@
+diff --git a/DEPLOY.md b/DEPLOY.md
+new file mode 100644
+index 0000000..953cd28
+--- /dev/null
++++ b/DEPLOY.md
+@@ -0,0 +1,110 @@
++# Déploiement
++
++Le site est une application SvelteKit construite avec `@sveltejs/adapter-node` : après `npm run build`, elle se lance avec `node build/index.js`. En production, on place généralement devant elle un reverse proxy HTTPS (Apache ou nginx).
++
++> Ce dépôt est public : n'y consigne ni identifiants, ni adresses ou noms de machines, ni détails d'infrastructure. Garde ces informations dans un endroit privé.
++
++## Prérequis
++
++- Node.js 20 ou plus récent (testé avec Node 22 et 24), npm
++- Un gestionnaire de processus, par exemple [PM2](https://pm2.keymetrics.io/)
++- Un reverse proxy HTTPS
++
++Utilise un utilisateur système dédié, non privilégié, pour faire tourner l'application, et place les sources hors du dossier servi par défaut par le serveur web.
++
++## Variables d'environnement
++
++| Variable | Rôle | Valeur conseillée |
++|---|---|---|
++| `HOST` | Interface d'écoute | `127.0.0.1` (le reverse proxy est sur la même machine) |
++| `PORT` | Port d'écoute | `3000` |
++| `NODE_ENV` | Mode | `production` |
++
++Le site n'a pas de formulaire ni de secret : aucun fichier `.env` n'est nécessaire.
++
++## Installer et lancer
++
++```bash
++git clone <adresse du dépôt> <dossier>
++cd <dossier>
++npm ci
++npm run build
++```
++
++Avec PM2, un fichier `ecosystem.config.cjs` à la racine :
++
++```js
++module.exports = {
++  apps: [{
++    name: 'lautreterreliberee',
++    script: 'build/index.js',
++    cwd: '/chemin/vers/le/dossier',
++    env: {
++      NODE_ENV: 'production',
++      HOST: '127.0.0.1',
++      PORT: 3000
++    }
++  }]
++}
++```
++
++```bash
++pm2 start ecosystem.config.cjs
++pm2 save
++pm2 startup systemd -u <utilisateur> --hp <home de l'utilisateur>   # puis exécuter en root la commande affichée
++```
++
++Vérification locale : `curl -I http://127.0.0.1:3000/` doit répondre `200`.
++
++## Reverse proxy (exemple Apache)
++
++Modules nécessaires : `proxy`, `proxy_http`, `ssl`, `rewrite`, `headers`.
++
++```apache
++<VirtualHost *:443>
++  ServerName example.org
++
++  ProxyPreserveHost On
++  RequestHeader set X-Forwarded-Proto "https"
++  ProxyPass / http://127.0.0.1:3000/
++  ProxyPassReverse / http://127.0.0.1:3000/
++
++  # certificat HTTPS (par exemple Let's Encrypt avec certbot)
++  SSLCertificateFile    /chemin/vers/fullchain.pem
++  SSLCertificateKeyFile /chemin/vers/privkey.pem
++</VirtualHost>
++```
++
++Ajoute un vhost sur le port 80 qui redirige vers HTTPS. Active le vhost HTTPS seulement après l'obtention du certificat.
++
++## Mettre à jour le site
++
++Depuis la racine du dépôt, avec l'utilisateur qui fait tourner l'application :
++
++```bash
++./deploy.sh
++```
++
++Le script exécute `git pull --ff-only`, `npm ci`, `npm run build`, puis `pm2 restart` (le nom de l'application PM2 est `lautreterreliberee` ; change-le avec la variable `APP_NAME` si besoin).
++
++`npm ci` est indispensable à chaque mise à jour : les dépendances d'exécution (`svelte-awesome`) sont lues depuis `node_modules`, et le build a besoin des dépendances de développement. Une courte interruption est possible pendant l'installation.
++
++Depuis un compte administrateur, on peut l'appeler ainsi :
++
++```bash
++sudo -u <utilisateur> -H /chemin/vers/le/dossier/deploy.sh
++```
++
++## Retour arrière
++
++```bash
++git log --oneline -5                  # repérer le commit à restaurer
++git checkout <commit>
++npm ci && npm run build && pm2 restart lautreterreliberee
++```
++
++Une fois le correctif poussé, reviens sur la branche principale avec `git checkout main` et relance `./deploy.sh`.
++
++## Fichiers lourds
++
++`static/audio/` contient plusieurs dizaines de Mo de fichiers audio : ils alourdissent les clones et les déploiements. N'y ajoute que des fichiers réellement utilisés par le site.
+diff --git a/README.md b/README.md
+index f942f5b..43dde89 100644
+--- a/README.md
++++ b/README.md
+@@ -1,52 +1,60 @@
+ # L'autre Terre Libérée
+ 
+-## Developing
++Site de l'association « L'autre terre libérée » (Luynes) : programme des événements, balade sonore à la rencontre de Louis Rimbault, rucher école, bibliographie.
+ 
+-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
++Construit avec SvelteKit (Svelte 4), Vite, Tailwind CSS et Sass. Le site est servi par Node grâce à `@sveltejs/adapter-node`.
+ 
+-```bash
+-npm run dev
++## Développer
++
++Prérequis : Node.js 20 ou plus récent (testé avec Node 22 et 24).
+ 
+-# or start the server and open the app in a new browser tab
+-npm run dev -- --open
++```bash
++npm ci
++npm run dev                # serveur de développement
++npm run dev -- --open      # idem, et ouvre un onglet
+ ```
+ 
+-## Building
++Le serveur de développement est réservé à la machine locale : ne l'expose pas sur Internet.
+ 
+-To create a production version of your app:
++## Vérifier et construire
+ 
+ ```bash
+-npm run build
++npm run check              # types et accessibilité (svelte-check)
++npm run build              # version de production, générée dans build/
++npm run preview            # prévisualiser le build
+ ```
+ 
+-You can preview the production build with `npm run preview`.
++Pour lancer le build tel qu'il tourne en production :
+ 
+-```shell
+-sudo su lautreterreliberee
+-cd /var/www/lautreterreliberee
+-git pull
+-npm run build
+-pm2 restart lautreterreliberee
++```bash
++HOST=127.0.0.1 PORT=3000 node build/index.js
+ ```
+ 
+-Reset PM2
++Le déploiement sur un serveur est décrit dans [DEPLOY.md](DEPLOY.md).
+ 
+-```shell
+-pm2 start --name lautreterreliberee ./build/index.js 
++## Organisation du dépôt
+ 
+-## Restart server
++| Chemin | Contenu |
++|---|---|
++| `src/routes/(app)/` | Les pages du site (accueil, association, balade sonore, rucher, bibliographie, mentions légales…) |
++| `src/routes/(app)/data.ts` | Les textes des 8 ardoises de la balade sonore |
++| `src/lib/components/` | Composants Svelte réutilisables |
++| `src/lib/images/` | Images et PDF importés dans les pages (renommés avec un hash au build) |
++| `static/` | Fichiers servis tels quels : audio (`static/audio/`), favicons, images de la bibliographie |
+ 
+- ```shell
+-pm2 list
+-# get id of app
+-pm2 restart [id]
+-```
++## Modifier le contenu
++
++### Événements (page d'accueil)
++
++Les événements sont écrits directement en HTML dans `src/routes/(app)/+page.svelte`, du plus récent au plus ancien. Les PDF et les affiches se placent dans `src/lib/images/` et s'importent en tête du fichier.
++
++### Balade sonore
+ 
+-## Editing data.js
++Les textes des ardoises sont dans `src/routes/(app)/data.ts` ; l'audio de l'ardoise `n` est le fichier `static/audio/n.mp3`.
+ 
+-HTML markup can be used in data.js :
++Du balisage HTML est accepté dans les textes de `data.ts` :
+ 
+-- Use `’` for quotes
+-- Use `<i>my italic text</i>` for *italic*
+-- Use `<strong>my bold text</strong>` for **bold**
+-- Use `<a href="insert full url" target="_blank">insert link text</a>` for [links](https://lautreterreliberee.fr)
+\ No newline at end of file
++- Utiliser `’` (apostrophe typographique) pour les apostrophes.
++- `<i>mon texte en italique</i>` pour l'*italique*.
++- `<strong>mon texte en gras</strong>` pour le **gras**.
++- `<a href="adresse complète" target="_blank" rel="noopener noreferrer">texte du lien</a>` pour un [lien](https://lautreterreliberee.fr).
+diff --git a/deploy.sh b/deploy.sh
+old mode 100644
+new mode 100755
+index 48b6525..b4785f5
+--- a/deploy.sh
++++ b/deploy.sh
+@@ -1 +1,11 @@
+-git pull && npm run build && pm2 restart lautreterreliberee.fr
+\ No newline at end of file
++#!/usr/bin/env bash
++# Met à jour et redémarre le site.
++# À lancer avec l'utilisateur qui fait tourner l'application (voir DEPLOY.md).
++set -euo pipefail
++
++cd "$(dirname "$0")"
++
++git pull --ff-only
++npm ci
++npm run build
++pm2 restart "${APP_NAME:-lautreterreliberee}"

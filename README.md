@@ -1,52 +1,60 @@
 # L'autre Terre Libérée
 
-## Developing
+Site de l'association « L'autre terre libérée » (Luynes) : programme des événements, balade sonore à la rencontre de Louis Rimbault, rucher école, bibliographie.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Construit avec SvelteKit (Svelte 4), Vite, Tailwind CSS et Sass. Le site est servi par Node grâce à `@sveltejs/adapter-node`.
 
-```bash
-npm run dev
+## Développer
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Prérequis : Node.js 20 ou plus récent (testé avec Node 22 et 24).
 
 ```bash
-npm run build
+npm ci
+npm run dev                # serveur de développement
+npm run dev -- --open      # idem, et ouvre un onglet
 ```
 
-You can preview the production build with `npm run preview`.
+Le serveur de développement est réservé à la machine locale : ne l'expose pas sur Internet.
 
-```shell
-sudo su lautreterreliberee
-cd /var/www/lautreterreliberee
-git pull
-npm run build
-pm2 restart lautreterreliberee
+## Vérifier et construire
+
+```bash
+npm run check              # types et accessibilité (svelte-check)
+npm run build              # version de production, générée dans build/
+npm run preview            # prévisualiser le build
 ```
 
-Reset PM2
+Pour lancer le build tel qu'il tourne en production :
 
-```shell
-pm2 start --name lautreterreliberee ./build/index.js 
-
-## Restart server
-
- ```shell
-pm2 list
-# get id of app
-pm2 restart [id]
+```bash
+HOST=127.0.0.1 PORT=3000 node build/index.js
 ```
 
-## Editing data.js
+Le déploiement sur un serveur est décrit dans [DEPLOY.md](DEPLOY.md).
 
-HTML markup can be used in data.js :
+## Organisation du dépôt
 
-- Use `’` for quotes
-- Use `<i>my italic text</i>` for *italic*
-- Use `<strong>my bold text</strong>` for **bold**
-- Use `<a href="insert full url" target="_blank">insert link text</a>` for [links](https://lautreterreliberee.fr)
+| Chemin | Contenu |
+|---|---|
+| `src/routes/(app)/` | Les pages du site (accueil, association, balade sonore, rucher, bibliographie, mentions légales…) |
+| `src/routes/(app)/data.ts` | Les textes des 8 ardoises de la balade sonore |
+| `src/lib/components/` | Composants Svelte réutilisables |
+| `src/lib/images/` | Images et PDF importés dans les pages (renommés avec un hash au build) |
+| `static/` | Fichiers servis tels quels : audio (`static/audio/`), favicons, images de la bibliographie |
+
+## Modifier le contenu
+
+### Événements (page d'accueil)
+
+Les événements sont écrits directement en HTML dans `src/routes/(app)/+page.svelte`, du plus récent au plus ancien. Les PDF et les affiches se placent dans `src/lib/images/` et s'importent en tête du fichier.
+
+### Balade sonore
+
+Les textes des ardoises sont dans `src/routes/(app)/data.ts` ; l'audio de l'ardoise `n` est le fichier `static/audio/n.mp3`.
+
+Du balisage HTML est accepté dans les textes de `data.ts` :
+
+- Utiliser `’` (apostrophe typographique) pour les apostrophes.
+- `<i>mon texte en italique</i>` pour l'*italique*.
+- `<strong>mon texte en gras</strong>` pour le **gras**.
+- `<a href="adresse complète" target="_blank" rel="noopener noreferrer">texte du lien</a>` pour un [lien](https://lautreterreliberee.fr).
