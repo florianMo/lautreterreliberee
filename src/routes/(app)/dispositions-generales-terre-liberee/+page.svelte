@@ -1,38 +1,31 @@
 <script>
+    import { SITE_URL } from '$lib/site';
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
     import source from "$lib/images/Le_Neo-naturien__CAHIER_N15.pdf";
 </script>
 
 <svelte:head>
     <!-- COMMON TAGS -->
-    <meta charset="utf-8"/>
     <title>Dispositions générales sur le fonctionnement de la cité végétalienne "Terre Libérée"</title>
     <!-- Search Engine -->
     <meta name="description" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta name="image" content={rimbaultTransparent}/>
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta itemprop="description" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta itemprop="image" content={rimbaultTransparent}/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
     <meta name="twitter:description" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta name="twitter:image:src" content={rimbaultTransparent}/>
-    <!-- Twitter - Article -->
+    <meta name="twitter:image" content={SITE_URL + rimbaultTransparent}/>
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta name="og:description" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
-    <meta name="og:image" content={rimbaultTransparent}/>
-    <meta name="og:url" content="https://lautreterreliberee.fr/dispositions-generales-terre-liberee"/>
-    <meta name="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
-    <meta name="og:locale" content="en_FR"/>
-    <meta name="fb:admins" content="lautreterreliberee"/>
-    <meta name="og:type" content="article"/>
+    <meta property="og:title" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
+    <meta property="og:description" content="Dispositions générales sur le fonctionnement de la cité végétalienne Terre Libérée"/>
+    <meta property="og:image" content={SITE_URL + rimbaultTransparent}/>
+    <meta property="og:url" content="https://lautreterreliberee.fr/dispositions-generales-terre-liberee"/>
+    <meta property="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="article"/>
     <!-- Open Graph - Article -->
-    <meta name="article:section" content="Culture"/>
-    <meta name="article:author" content="L'autre terre libérée"/>
-    <meta name="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
+    <meta property="article:section" content="Culture"/>
+    <meta property="article:author" content="L'autre terre libérée"/>
+    <meta property="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
 </svelte:head>
 
 <h1 class="frankie text-center text-2xl md:text-4xl mb-4">Extrait des dispositions générales sur le fonctionnement<br/>de la cité végétalienne «Terre Libérée»</h1>

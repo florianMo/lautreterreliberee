@@ -8,6 +8,7 @@
 
 <svelte:head>
     <title>Balade sonore, à la rencontre de Louis Rimbault — L'autre terre libérée</title>
+    <meta name="description" content="Balade sonore de deux heures à Luynes : huit podcasts à écouter en suivant les ardoises, à la rencontre de Louis Rimbault et de Terre Libérée."/>
 </svelte:head>
 
 <h1 class="text-center frankie text-4xl mb-4 text-atl-brown">En route vers Terre Libérée</h1>

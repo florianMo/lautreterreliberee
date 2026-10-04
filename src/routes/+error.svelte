@@ -3,6 +3,10 @@
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
 </script>
 
+<svelte:head>
+    <title>Erreur {$page.status} — L'autre terre libérée</title>
+</svelte:head>
+
 <div class="container">
     <div class="img-header text-center flex justify-center mt-10">
         <img src={rimbaultTransparent} alt="Portrait de Louis Rimbault"/>

@@ -1,10 +1,12 @@
 <script>
     export let data;
     $: audioPath = `/audio/${data.ardoise.numero}.mp3`;
+    $: description = (data.ardoise.texteArdoise[0] ?? '').replace(/<[^>]*>/g, '');
 </script>
 
 <svelte:head>
     <title>{data.ardoise.titre} — L'autre terre libérée</title>
+    <meta name="description" content={description}/>
 </svelte:head>
 
 <div class="max-w-screen-lg m-auto pl-6 pr-6">

@@ -1,4 +1,5 @@
 <script>
+    import { SITE_URL } from '$lib/site';
     import afficheSansTexte from "$lib/images/affiche-sanstexte.png";
     import Icon from "svelte-awesome";
     import map from "svelte-awesome/icons/map";
@@ -14,36 +15,27 @@
 </script>
 
 <svelte:head>
-    <title>Champ Libre, programme des journées organisée par l'association "L'autre terre libérée" à Luynes</title>
     <!-- COMMON TAGS -->
-    <meta charset="utf-8"/>
     <title>L'autre terre libérée - Champ Libre - A la rencontre de Louis Rimbault</title>
     <!-- Search Engine -->
     <meta name="description" content="Programme des journées Champ Libre organisées par l'association L'autre terre libérée à Luynes"/>
-    <meta name="image" content={afficheSansTexte}/>
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="L'autre terre libérée - Champ Libre - A la rencontre de Louis Rimbault"/>
-    <meta itemprop="description" content="Programme des journées Champ Libre organisées par l'association L'autre terre libérée à Luynes"/>
-    <meta itemprop="image" content={afficheSansTexte}/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="L'autre terre libérée - Champ Libre - A la rencontre de Louis Rimbault"/>
     <meta name="twitter:description" content="Programme des journées Champ Libre organisées par l'association L'autre terre libérée à Luynes"/>
-    <meta name="twitter:image:src" content={afficheSansTexte}/>
-    <!-- Twitter - Article -->
+    <meta name="twitter:image" content={SITE_URL + rimbaultTransparent}/>
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="L'autre terre libérée - Champ Libre - A la rencontre de Louis Rimbault"/>
-    <meta name="og:description" content="Programme des journées Champ Libre organisées par l'association L'autre terre libérée à Luynes"/>
-    <meta name="og:image" content={rimbaultTransparent}/>
-    <meta name="og:url" content="https://lautreterreliberee.fr/"/>
-    <meta name="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
-    <meta name="og:locale" content="en_FR"/>
-    <meta name="fb:admins" content="lautreterreliberee"/>
-    <meta name="og:type" content="article"/>
+    <meta property="og:title" content="L'autre terre libérée - Champ Libre - A la rencontre de Louis Rimbault"/>
+    <meta property="og:description" content="Programme des journées Champ Libre organisées par l'association L'autre terre libérée à Luynes"/>
+    <meta property="og:image" content={SITE_URL + rimbaultTransparent}/>
+    <meta property="og:url" content="https://lautreterreliberee.fr/"/>
+    <meta property="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="article"/>
     <!-- Open Graph - Article -->
-    <meta name="article:section" content="Culture"/>
-    <meta name="article:author" content="L'autre terre libérée"/>
-    <meta name="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
+    <meta property="article:section" content="Culture"/>
+    <meta property="article:author" content="L'autre terre libérée"/>
+    <meta property="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
 </svelte:head>
 
 <div class="img-header text-center flex justify-center mb-10">

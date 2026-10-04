@@ -8,6 +8,7 @@
 
 <svelte:head>
     <title>«Voyages en utopies» - B. Simmat, D. Casanave - Lecture critique</title>
+    <meta name="description" content="Lecture critique de « Voyages en utopies » de Benoist Simmat et Daniel Casanave (Fayard Graffik, 2025)."/>
 </svelte:head>
 
 <h1 class="text-center frankie text-4xl mb-4">Une lecture critique de «Voyages en utopies»<br/>de Benoist Simmat et Daniel Casanave<br/>(Fayard Graffik, 2025)</h1>

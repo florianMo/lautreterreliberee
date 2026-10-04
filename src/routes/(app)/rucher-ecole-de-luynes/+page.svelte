@@ -1,4 +1,5 @@
 <script>
+    import { SITE_URL } from '$lib/site';
     import Paragraph from "$lib/components/Paragraph.svelte";
     import Title1 from "$lib/components/Title1.svelte";
     import Title2 from "$lib/components/Title2.svelte";
@@ -45,33 +46,25 @@
 <svelte:head>
     <title>Le rucher école de Luynes</title>
     <!-- COMMON TAGS -->
-    <meta charset="utf-8"/>
     <!-- Search Engine -->
     <meta name="description" content="Le rucher école de Luynes"/>
-    <meta name="image" content={rimbaultTransparent}/>
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Le rucher école de Luynes"/>
-    <meta itemprop="description" content="Résultats des premières recherches"/>
-    <meta itemprop="image" content={rimbaultTransparent}/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Le rucher école de Luynes"/>
     <meta name="twitter:description" content="Le rucher école de Luynes"/>
-    <meta name="twitter:image:src" content={rimbaultTransparent}/>
-    <!-- Twitter - Article -->
+    <meta name="twitter:image" content={SITE_URL + rimbaultTransparent}/>
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="Le rucher école de Luynes"/>
-    <meta name="og:description" content="Le rucher école de Luynes"/>
-    <meta name="og:image" content={rimbaultTransparent}/>
-    <meta name="og:url" content="https://lautreterreliberee.fr/recettes-vegetaliennes"/>
-    <meta name="og:site_name" content="Le rucher école de Luynes"/>
-    <meta name="og:locale" content="fr_FR"/>
-    <meta name="fb:admins" content="lautreterreliberee"/>
-    <meta name="og:type" content="article"/>
+    <meta property="og:title" content="Le rucher école de Luynes"/>
+    <meta property="og:description" content="Le rucher école de Luynes"/>
+    <meta property="og:image" content={SITE_URL + rimbaultTransparent}/>
+    <meta property="og:url" content="https://lautreterreliberee.fr/rucher-ecole-de-luynes"/>
+    <meta property="og:site_name" content="Le rucher école de Luynes"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="article"/>
     <!-- Open Graph - Article -->
-    <meta name="article:section" content="Culture"/>
-    <meta name="article:author" content="L'autre terre libérée"/>
-    <meta name="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes, rucher, apiculteur"/>
+    <meta property="article:section" content="Culture"/>
+    <meta property="article:author" content="L'autre terre libérée"/>
+    <meta property="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes, rucher, apiculteur"/>
 </svelte:head>
 
 <Title1>Le rucher école de Luynes</Title1>

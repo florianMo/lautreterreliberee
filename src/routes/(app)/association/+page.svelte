@@ -1,4 +1,5 @@
 <script>
+    import { SITE_URL } from '$lib/site';
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
     import cartePostale from "$lib/images/carte-postale.png";
     import mugshot from "$lib/images/mugshot.png";
@@ -7,36 +8,27 @@
 </script>
 
 <svelte:head>
-    <title>L'association "L'Autre terre libérée", à la rencontre de Louis Rimbault</title>
     <!-- COMMON TAGS -->
-    <meta charset="utf-8"/>
     <title>Association "L'autre terre libérée", à la rencontre de Louis Rimbault</title>
     <!-- Search Engine -->
     <meta name="description" content="Présentation de l'association L'autre terre libérée à Luynes, autour de Louis Rimbault, anarchiste végétalien"/>
-    <meta name="image" content={rimbaultTransparent}/>
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Association L'autre terre libérée, à la rencontre de Louis Rimbault"/>
-    <meta itemprop="description" content="Présentation de l'association L'autre terre libérée à Luynes, autour de Louis Rimbault, anarchiste végétalien"/>
-    <meta itemprop="image" content={rimbaultTransparent}/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Association L'autre terre libérée, à la rencontre de Louis Rimbault"/>
     <meta name="twitter:description" content="Présentation de l'association L'autre terre libérée à Luynes, autour de Louis Rimbault, anarchiste végétalien"/>
-    <meta name="twitter:image:src" content={rimbaultTransparent}/>
-    <!-- Twitter - Article -->
+    <meta name="twitter:image" content={SITE_URL + rimbaultTransparent}/>
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="Association L'autre terre libérée, à la rencontre de Louis Rimbault"/>
-    <meta name="og:description" content="Présentation de l'association L'autre terre libérée à Luynes, autour de Louis Rimbault, anarchiste végétalien"/>
-    <meta name="og:image" content={rimbaultTransparent}/>
-    <meta name="og:url" content="https://lautreterreliberee.fr/association"/>
-    <meta name="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
-    <meta name="og:locale" content="en_FR"/>
-    <meta name="fb:admins" content="lautreterreliberee"/>
-    <meta name="og:type" content="article"/>
+    <meta property="og:title" content="Association L'autre terre libérée, à la rencontre de Louis Rimbault"/>
+    <meta property="og:description" content="Présentation de l'association L'autre terre libérée à Luynes, autour de Louis Rimbault, anarchiste végétalien"/>
+    <meta property="og:image" content={SITE_URL + rimbaultTransparent}/>
+    <meta property="og:url" content="https://lautreterreliberee.fr/association"/>
+    <meta property="og:site_name" content="L'autre terre libérée, à la rencontre de Louis Rimbault à Luynes"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="article"/>
     <!-- Open Graph - Article -->
-    <meta name="article:section" content="Culture"/>
-    <meta name="article:author" content="L'autre terre libérée"/>
-    <meta name="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
+    <meta property="article:section" content="Culture"/>
+    <meta property="article:author" content="L'autre terre libérée"/>
+    <meta property="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
 </svelte:head>
 
 <h1 class="frankie text-center text-4xl md:text-6xl">L'autre Terre Libérée</h1>

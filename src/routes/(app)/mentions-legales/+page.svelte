@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Mentions légales — L'autre terre libérée</title>
+    <meta name="description" content="Mentions légales du site de l'association L'autre terre libérée."/>
 </svelte:head>
 
 <div class="flex justify-center">

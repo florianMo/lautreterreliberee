@@ -1,4 +1,5 @@
 <script>
+    import { SITE_URL } from '$lib/site';
     import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
     import recettesPdf from "$lib/images/recettes-terre-liberee-neonaturien-22.pdf";
     import Paragraph from "$lib/components/Paragraph.svelte";
@@ -9,33 +10,25 @@
 <svelte:head>
     <title>Les recette végétaliennes de "Terre Libérée"</title>
     <!-- COMMON TAGS -->
-    <meta charset="utf-8"/>
     <!-- Search Engine -->
     <meta name="description" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta name="image" content={rimbaultTransparent}/>
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta itemprop="description" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta itemprop="image" content={rimbaultTransparent}/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
     <meta name="twitter:description" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta name="twitter:image:src" content={rimbaultTransparent}/>
-    <!-- Twitter - Article -->
+    <meta name="twitter:image" content={SITE_URL + rimbaultTransparent}/>
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta name="og:description" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta name="og:image" content={rimbaultTransparent}/>
-    <meta name="og:url" content="https://lautreterreliberee.fr/recettes-vegetaliennes"/>
-    <meta name="og:site_name" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
-    <meta name="og:locale" content="en_FR"/>
-    <meta name="fb:admins" content="lautreterreliberee"/>
-    <meta name="og:type" content="article"/>
+    <meta property="og:title" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
+    <meta property="og:description" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
+    <meta property="og:image" content={SITE_URL + rimbaultTransparent}/>
+    <meta property="og:url" content="https://lautreterreliberee.fr/recettes-vegetaliennes"/>
+    <meta property="og:site_name" content="Les recettes végétaliennes de Terre Libérée à Luynes"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="article"/>
     <!-- Open Graph - Article -->
-    <meta name="article:section" content="Culture"/>
-    <meta name="article:author" content="L'autre terre libérée"/>
-    <meta name="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
+    <meta property="article:section" content="Culture"/>
+    <meta property="article:author" content="L'autre terre libérée"/>
+    <meta property="article:tag" content="histoire, anarchisme, végétalisme, rimbault, luynes"/>
 </svelte:head>
 
 <Title1>Recettes végétaliennes pour vivre 100 ans</Title1>

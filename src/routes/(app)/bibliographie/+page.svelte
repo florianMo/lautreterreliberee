@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Bibliographie — L'autre terre libérée</title>
+    <meta name="description" content="Bibliographie de l'association L'autre terre libérée : lectures autour de Louis Rimbault, de l'anarchisme et du végétalisme."/>
 </svelte:head>
 
 <h1 class="text-center frankie text-4xl mb-4">Bibliographie</h1>

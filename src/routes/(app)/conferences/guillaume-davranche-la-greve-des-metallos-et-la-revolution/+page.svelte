@@ -4,6 +4,7 @@
 
 <svelte:head>
     <title>Guillaume Davranche — Louis Rimbault 1919 : la grève des métallos et la révolution</title>
+    <meta name="description" content="Conférence de Guillaume Davranche à Luynes : « Louis Rimbault 1919 : la grève des métallos et la révolution » (enregistrement audio)."/>
 </svelte:head>
 
 <h1 class="text-center frankie text-5xl py-4">Louis Rimbault 1919 : la grève des métallos et la révolution</h1>
