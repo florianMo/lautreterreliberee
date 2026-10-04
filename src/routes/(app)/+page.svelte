@@ -1,17 +1,17 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import afficheSansTexte from "$lib/images/affiche-sanstexte.png";
+    import { SITE_URL } from '#lib/site.js';
+    import afficheSansTexte from "#lib/images/affiche-sanstexte.png";
     import Icon from "svelte-awesome";
     import map from "svelte-awesome/icons/map";
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import miel from "$lib/images/miel.jpeg";
-    import librairieUtopia from "$lib/images/librairie-utopia.png";
-    import allerVers1 from "$lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
-    import allerVers2 from "$lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
-    import allerVers3 from "$lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
-    import habiterLaTerre from "$lib/images/habiterLaTerre.png";
-    import bagneDesFous from "$lib/images/bagne-des-fous.jpeg";
-    import conferenceIllustreeAnneSteiner from "$lib/images/conference-illustree-anne-steiner.pdf";
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import miel from "#lib/images/miel.jpeg";
+    import librairieUtopia from "#lib/images/librairie-utopia.png";
+    import allerVers1 from "#lib/images/aller-vers/comment-interagir-avec-les-habitants-guide-express.pdf";
+    import allerVers2 from "#lib/images/aller-vers/enquetes-exploratoires-et-campagnes-relationnelles-version-light.pdf";
+    import allerVers3 from "#lib/images/aller-vers/socio-vite-fait-ce-qui-nous-separe-l-aller-vers-aujourdhui.pdf";
+    import habiterLaTerre from "#lib/images/habiterLaTerre.png";
+    import bagneDesFous from "#lib/images/bagne-des-fous.jpeg";
+    import conferenceIllustreeAnneSteiner from "#lib/images/conference-illustree-anne-steiner.pdf";
 </script>
 
 <svelte:head>
@@ -66,7 +66,7 @@
     <a href="https://www.babelio.com/auteur/Veronique-Fau-Vincenti/519732" target="_blank" rel="noopener noreferrer">sur Babelio</a><br/>
     <a href="https://www.monde-diplomatique.fr/auteurs/veronique-fau-vincenti" target="_blank" rel="noopener noreferrer">sur « Le Monde Diplomatique »</a>
 </p>
-<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.
+<p class="text-base lg:text-2xl mb-4">Vente d'une sélection thématique d'ouvrages de la librairie tourangelle autogérée <a href="https://www.canalbd.net/bedelire" target="_blank" rel="noopener noreferrer">Bédélire</a>.</p>
 <div class="flex justify-center">
     <img loading="lazy" decoding="async" src={bagneDesFous} alt="Conférence Véronique Fau-Vincenti, Louis Rimbault et le bagne des fous" class="w-[600px] max-w-full"/>
 </div>

@@ -6,7 +6,7 @@ Le site est une application SvelteKit construite avec `@sveltejs/adapter-node` :
 
 ## Prérequis
 
-- Node.js 20 ou plus récent (testé avec Node 22 et 24), npm
+- Node.js 22.17 ou plus récent (testé avec Node 22 et 24), npm
 - Un gestionnaire de processus, par exemple [PM2](https://pm2.keymetrics.io/)
 - Un reverse proxy HTTPS
 

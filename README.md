@@ -2,11 +2,11 @@
 
 Site de l'association « L'autre terre libérée » (Luynes) : programme des événements, balade sonore à la rencontre de Louis Rimbault, rucher école, bibliographie.
 
-Construit avec SvelteKit (Svelte 4), Vite, Tailwind CSS et Sass. Le site est servi par Node grâce à `@sveltejs/adapter-node`.
+Construit avec SvelteKit 3 (Svelte 5), Vite, Tailwind CSS et Sass. Le site est servi par Node grâce à `@sveltejs/adapter-node`.
 
 ## Développer
 
-Prérequis : Node.js 20 ou plus récent (testé avec Node 22 et 24).
+Prérequis : Node.js 22.17 ou plus récent (testé avec Node 22 et 24).
 
 ```bash
 npm ci

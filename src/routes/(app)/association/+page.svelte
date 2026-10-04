@@ -1,10 +1,10 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import cartePostale from "$lib/images/carte-postale.png";
-    import mugshot from "$lib/images/mugshot.png";
-    import presentationAssociationPdf from "$lib/images/l-autre-terre-liberee.pdf";
-    import labelRenaissance from "$lib/images/label-renaissance-2023.jpg";
+    import { SITE_URL } from '#lib/site.js';
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import cartePostale from "#lib/images/carte-postale.png";
+    import mugshot from "#lib/images/mugshot.png";
+    import presentationAssociationPdf from "#lib/images/l-autre-terre-liberee.pdf";
+    import labelRenaissance from "#lib/images/label-renaissance-2023.jpg";
 </script>
 
 <svelte:head>
@@ -98,9 +98,8 @@
     <li>
         <p class="text-base md:text-xl mb-4">
             2 juillet 2023,
-            <a href="https://soundcloud.com/rfl-en-touraine/rfl101-rflactu-lautreterre-liberee-de-louis-rimbault-et-ses-mysteres-qui-demeurent?ref=clipboard&p=a&c=0&si=c960b60a9b8e4bd990eb6674bbebdf06" target="_blank" rel="noopener noreferrer">
-                Emission consacrée à l'association sur <a href="https://www.rfl101.fr/" target="_blank" rel="noopener noreferrer">RFL101</a> avec Thierry Flammant
-            </a>
+            <a href="https://soundcloud.com/rfl-en-touraine/rfl101-rflactu-lautreterre-liberee-de-louis-rimbault-et-ses-mysteres-qui-demeurent?ref=clipboard&p=a&c=0&si=c960b60a9b8e4bd990eb6674bbebdf06" target="_blank" rel="noopener noreferrer">Émission consacrée à l'association</a>
+            sur <a href="https://www.rfl101.fr/" target="_blank" rel="noopener noreferrer">RFL101</a> avec Thierry Flammant
         </p>
     </li>
     <li>

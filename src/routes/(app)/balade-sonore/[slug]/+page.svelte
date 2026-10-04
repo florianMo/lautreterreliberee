@@ -15,7 +15,7 @@
     <div class="mb-4">
         <a href="/balade-sonore" class="frankie text-2xl mb-6">Carte de la balade</a>
     </div>
-    <audio controls preload="none" src={audioPath} class="w-full mb-6"/>
+    <audio controls preload="none" src={audioPath} class="w-full mb-6"></audio>
 
     <div class="balade-nav flex justify-between frankie text-4xl mt-8 mb-8 ml-3 mr-3">
         {#if data.previous}

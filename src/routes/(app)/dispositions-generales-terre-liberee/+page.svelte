@@ -1,7 +1,7 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import source from "$lib/images/Le_Neo-naturien__CAHIER_N15.pdf";
+    import { SITE_URL } from '#lib/site.js';
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import source from "#lib/images/Le_Neo-naturien__CAHIER_N15.pdf";
 </script>
 
 <svelte:head>

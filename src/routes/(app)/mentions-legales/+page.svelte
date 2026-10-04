@@ -1,5 +1,5 @@
 <script>
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
 </script>
 
 <svelte:head>

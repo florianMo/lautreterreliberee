@@ -1,9 +1,9 @@
 <script>
-    import couverture from "$lib/images/voyages-utopies/couverture.jpeg";
-    import Paragraph from "$lib/components/Paragraph.svelte";
-    import Title2 from "$lib/components/Title2.svelte";
-    import RefLink from "$lib/components/RefLink.svelte";
-    import RefNotice from "$lib/components/RefNotice.svelte";
+    import couverture from "#lib/images/voyages-utopies/couverture.jpeg";
+    import Paragraph from "#lib/components/Paragraph.svelte";
+    import Title2 from "#lib/components/Title2.svelte";
+    import RefLink from "#lib/components/RefLink.svelte";
+    import RefNotice from "#lib/components/RefNotice.svelte";
 </script>
 
 <svelte:head>

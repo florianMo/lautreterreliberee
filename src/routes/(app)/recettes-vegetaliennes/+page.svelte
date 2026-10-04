@@ -1,10 +1,10 @@
 <script>
-    import { SITE_URL } from '$lib/site';
-    import rimbaultTransparent from "$lib/images/rimbault-transparent.png";
-    import recettesPdf from "$lib/images/recettes-terre-liberee-neonaturien-22.pdf";
-    import Paragraph from "$lib/components/Paragraph.svelte";
-    import Title2 from "$lib/components/Title2.svelte";
-    import Title1 from "$lib/components/Title1.svelte";
+    import { SITE_URL } from '#lib/site.js';
+    import rimbaultTransparent from "#lib/images/rimbault-transparent.png";
+    import recettesPdf from "#lib/images/recettes-terre-liberee-neonaturien-22.pdf";
+    import Paragraph from "#lib/components/Paragraph.svelte";
+    import Title2 from "#lib/components/Title2.svelte";
+    import Title1 from "#lib/components/Title1.svelte";
 </script>
 
 <svelte:head>

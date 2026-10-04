@@ -2,15 +2,20 @@
     import "../../app.css";
     import "../../lib/frankie/stylesheet.css";
     import "../../lib/css/style.scss";
-    import logoSmall from "$lib/images/logo-small.jpg";
-    import labelRenaissance from "$lib/images/label-renaissance-2023.jpg";
-    import { page } from '$app/stores';
+    import logoSmall from "#lib/images/logo-small.jpg";
+    import labelRenaissance from "#lib/images/label-renaissance-2023.jpg";
+    import { page } from '$app/state';
+
+    let { children } = $props();
 
     const linkClasses = 'text-sm xl:text-lg';
-    $: menuBgColor = $page.url.pathname.includes('/balade-sonore') ? 'bg-atl-brown' : 'bg-atl-red';
+    let menuBgColor = $derived(page.url.pathname.includes('/balade-sonore') ? 'bg-atl-brown' : 'bg-atl-red');
 </script>
 
-<nav aria-label="Menu principal" class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}">
+<nav
+    aria-label="Menu principal"
+    class="menu flex flex-wrap fixed top-0 w-full justify-center {menuBgColor}"
+>
     <a href="/" class={linkClasses}>Événements</a>
     <a href="/association" class={linkClasses}>L'association</a>
     <a href="/balade-sonore" class={linkClasses}>Balade sonore</a>
@@ -19,9 +24,10 @@
 
 <div class="container p-4 pt-16">
     <div class="inner">
-        <slot/>
+        {@render children()}
     </div>
 </div>
+
 <footer class="mb-6">
     <div class="footer text-center">
         <img loading="lazy" decoding="async" src={logoSmall} alt="Logo de l'association L'autre terre libérée à Luynes"/>
